@@ -24,20 +24,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About ICPM</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#why-uae">Why UAE?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#benefits">Benefits</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#booths">Booth Options</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                  <!--  <li class="nav-item dropdown">
+                    <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">About ICPM</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why-uae"  data-i18n="nav.why">Why UAE?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#benefits"  data-i18n="nav.benefits">Benefits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#booths"  data-i18n="nav.booths">Booth Options</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"  data-i18n="nav.contact">Contact</a></li>
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown">
-                            <i class="fas fa-language"></i> English
+                            <i class="fas fa-language"></i> <span id="currentLanguage">English</span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">English</a></li>
-                            <li><a class="dropdown-item" href="#">Svenska</a></li>
+                            <li><a class="dropdown-item language-btn" href="#" data-lang="en">English</a></li>
+                            <li><a class="dropdown-item language-btn" href="#" data-lang="sv">Svenska</a></li>
                         </ul>
-                    </li>-->
+                    </li>
                 </ul>
             </div>
         </div>
@@ -48,19 +48,19 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-lg-8">
-                    <h1>Take Your Healthcare Innovation to the Middle East</h1>
-                    <h2 class="mb-4">Exhibit at ICPM 2026 in the UAE</h2>
-                    <p class="lead">Join one of the Middle East's largest healthcare and pharmaceutical exhibitions.<br>
+                    <h1 data-i18n="hero.title">Take Your Healthcare Innovation to the Middle East</h1>
+                    <h2 class="mb-4" data-i18n="hero.subtitle">Exhibit at ICPM 2026 in the UAE</h2>
+                    <p class="lead" data-i18n="hero.text">Join one of the Middle East's largest healthcare and pharmaceutical exhibitions.<br>
                     January 20-22, 2026 — Sharjah Research Technology & Innovation Park, UAE.</p>
                     <div class="d-flex flex-wrap gap-3 mt-4">
-                        <a href="#apply" class="btn btn-primary btn-lg">Apply for Exhibitor Spot</a>
+                        <a href="#apply" class="btn btn-primary btn-lg" data-i18n="hero.apply">Apply for Exhibitor Spot</a>
                         <!--<a href="#brochure" class="btn btn-outline-light btn-lg">Download Brochure</a>-->
-                        <a href="assets/icpm-brochure.pdf" class="btn btn-primary" download="ICPM-2026-Brochure.pdf">
+                        <a href="assets/icpm-brochure.pdf" class="btn btn-primary" download="ICPM-2026-Brochure.pdf" data-i18n="hero.download">
                             <i class="fas fa-download me-2"></i> Download Brochure
                         </a>
                     
                         <!--<a href="#contact" class="btn btn-outline-light btn-lg">Schedule a Call</a>-->
-                        <a href="#contact" class="btn btn-primary btn-lg">Schedule a Call</a>
+                        <a href="#contact" class="btn btn-primary btn-lg" data-i18n="hero.call">Schedule a Call</a>
                     </div>
                 </div>
             </div>
@@ -72,10 +72,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h2 class="section-title mb-4">What is ICPM?</h2>
-                    <p>The International Conference of Pharmacy & Medicine (ICPM) is one of the UAE's most established industry events in the fields of pharmaceuticals, medicine, biotech, and healthtech.</p>
-                    <p>Launched in 2017, the conference has grown to host over 20,000 attendees, 500+ exhibitors, and delegates from 50+ countries.</p>
-                    <p>This global platform combines exhibitions, B2B meetings, keynote sessions, and hands-on workshops. ICPM is where innovators, researchers, and decision-makers gather to shape the future of healthcare in the MENA region.</p>
+                    <h2 class="section-title mb-4" data-i18n="about.title">What is ICPM?</h2>
+                    <p data-i18n="about.text1">The International Conference of Pharmacy & Medicine (ICPM) is one of the UAE's most established industry events in the fields of pharmaceuticals, medicine, biotech, and healthtech.</p>
+                    <p data-i18n="about.text2">Launched in 2017, the conference has grown to host over 20,000 attendees, 500+ exhibitors, and delegates from 50+ countries.</p>
+                    <p data-i18n="about.text3">This global platform combines exhibitions, B2B meetings, keynote sessions, and hands-on workshops. ICPM is where innovators, researchers, and decision-makers gather to shape the future of healthcare in the MENA region.</p>
                 </div>
                 <div class="col-lg-6">
                     <img src="images/icpm-event.jpg" alt="ICPM Event" class="img-fluid rounded shadow">
@@ -87,18 +87,18 @@
     <!-- Why UAE Section -->
     <section id="why-uae" class="py-5 bg-light">
         <div class="container">
-            <h2 class="section-title text-center mb-5">Why the UAE — and Why Now?</h2>
+            <h2 class="section-title text-center mb-5" data-i18n="why.title">Why the UAE — and Why Now?</h2>
             <div class="row">
                 <div class="col-lg-6 order-lg-2">
-                    <p>The UAE is one of the world's fastest-growing hubs for healthcare innovation. With major investments in digital health, biotechnology, and advanced medical systems, the region is actively seeking collaborations with Nordic innovators.</p>
-                    <h4 class="mt-4">Opportunities for Swedish companies:</h4>
+                    <p data-i18n="why.text1">The UAE is one of the world's fastest-growing hubs for healthcare innovation. With major investments in digital health, biotechnology, and advanced medical systems, the region is actively seeking collaborations with Nordic innovators.</p>
+                    <h4 class="mt-4" data-i18n="why.sutitle">Opportunities for Swedish companies:</h4>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-transparent">Rapidly expanding healthcare market</li>
-                        <li class="list-group-item bg-transparent">Strong investor interest</li>
-                        <li class="list-group-item bg-transparent">Strategic access to the MENA region</li>
-                        <li class="list-group-item bg-transparent">High regard for Nordic quality and expertise</li>
+                        <li class="list-group-item bg-transparent" data-i18n="why.list1">Rapidly expanding healthcare market</li>
+                        <li class="list-group-item bg-transparent" data-i18n="why.list2">Strong investor interest</li>
+                        <li class="list-group-item bg-transparent" data-i18n="why.list3">Strategic access to the MENA region</li>
+                        <li class="list-group-item bg-transparent" data-i18n="why.list4">High regard for Nordic quality and expertise</li>
                     </ul>
-                    <p class="mt-3">ICPM 2026 is the ideal gateway to launch or grow your presence in the Gulf region.</p>
+                    <p class="mt-3" data-i18n="why.text2">ICPM 2026 is the ideal gateway to launch or grow your presence in the Gulf region.</p>
                 </div>
                 <div class="col-lg-6 order-lg-1">
                     <img src="images/uae-skyline.jpg" alt="UAE Skyline" class="img-fluid rounded shadow">
@@ -110,7 +110,7 @@
     <!-- Exhibitor Benefits Section -->
     <section id="benefits" class="py-5">
         <div class="container">
-            <h2 class="section-title text-center mb-5">What You Get as a Nordic Exhibitor</h2>
+            <h2 class="section-title text-center mb-5" data-i18n="Exhibitor.title">What You Get as a Nordic Exhibitor</h2>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 border-0 shadow-sm">
@@ -118,8 +118,8 @@
                             <div class="icon-box bg-primary mb-3">
                                 <i class="fas fa-chess-knight"></i>
                             </div>
-                            <h5>Custom-built exhibition booths</h5>
-                            <p>Premium design tailored to your brand and products</p>
+                            <h5 data-i18n="Exhibitor.subtitle1">Custom-built exhibition booths</h5>
+                            <p data-i18n="Exhibitor.text1">Premium design tailored to your brand and products</p>
                         </div>
                     </div>
                 </div>
@@ -129,8 +129,8 @@
                             <div class="icon-box bg-primary mb-3">
                                 <i class="fas fa-handshake"></i>
                             </div>
-                            <h5>B2B matchmaking</h5>
-                            <p>Access to buyers, investors, and stakeholders</p>
+                            <h5 data-i18n="Exhibitor.subtitle2">B2B matchmaking</h5>
+                            <p data-i18n="Exhibitor.text2">Access to buyers, investors, and stakeholders</p>
                         </div>
                     </div>
                 </div>
@@ -140,8 +140,8 @@
                             <div class="icon-box bg-primary mb-3">
                                 <i class="fas fa-bullhorn"></i>
                             </div>
-                            <h5>Media exposure</h5>
-                            <p>International coverage for your brand</p>
+                            <h5 data-i18n="Exhibitor.subtitle3">Media exposure</h5>
+                            <p data-i18n="Exhibitor.text3">International coverage for your brand</p>
                         </div>
                     </div>
                 </div>
@@ -151,8 +151,8 @@
                             <div class="icon-box bg-primary mb-3">
                                 <i class="fas fa-users"></i>
                             </div>
-                            <h5>VIP networking</h5>
-                            <p>Exclusive opportunities to connect</p>
+                            <h5 data-i18n="Exhibitor.subtitle4">VIP networking</h5>
+                            <p data-i18n="Exhibitor.text4">Exclusive opportunities to connect</p>
                         </div>
                     </div>
                 </div>
@@ -162,8 +162,8 @@
                             <div class="icon-box bg-primary mb-3">
                                 <i class="fas fa-chess"></i>
                             </div>
-                            <h5>Strategic planning</h5>
-                            <p>One-on-one session with Keeada</p>
+                            <h5 data-i18n="Exhibitor.subtitle5">Strategic planning</h5>
+                            <p data-i18n="Exhibitor.text5">One-on-one session with Keeada</p>
                         </div>
                     </div>
                 </div>
@@ -173,8 +173,8 @@
                             <div class="icon-box bg-primary mb-3">
                                 <i class="fas fa-tags"></i>
                             </div>
-                            <h5>Subsidized options</h5>
-                            <p>Special rates via Scandinavian channel</p>
+                            <h5 data-i18n="Exhibitor.subtitle6">Subsidized options</h5>
+                            <p data-i18n="Exhibitor.text6">Special rates via Scandinavian channel</p>
                         </div>
                     </div>
                 </div>
@@ -185,8 +185,8 @@
     <!-- Booth Options Section -->
     <section id="booths" class="py-5 bg-light">
         <div class="container">
-            <h2 class="section-title text-center mb-5">Booth Packages and Sponsorship Opportunities</h2>
-            <p class="text-center mb-5">Choose the size and visibility level that suits your company best. Pricing starts at 600 USD per m². Discounted rates may apply via Keeada.</p>
+            <h2 class="section-title text-center mb-5" data-i18n="Booth.title">Booth Packages and Sponsorship Opportunities</h2>
+            <p class="text-center mb-5" data-i18n="Booth.text">Choose the size and visibility level that suits your company best. Pricing starts at 600 USD per m². Discounted rates may apply via Keeada.</p>
             
             <div class="row g-4 mb-5">
                 <div class="col-md-4">
@@ -196,15 +196,15 @@
                         </div>
                         <div class="card-body">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Standard booth construction</li>
-                                <li class="list-group-item">Basic furniture package</li>
-                                <li class="list-group-item">Company name on fascia</li>
-                                <li class="list-group-item">2 exhibitor passes</li>
+                                <li class="list-group-item" data-i18n="Booth.llist1">Standard booth construction</li>
+                                <li class="list-group-item" data-i18n="Booth.llist2">Basic furniture package</li>
+                                <li class="list-group-item" data-i18n="Booth.llist3">Company name on fascia</li>
+                                <li class="list-group-item" data-i18n="Booth.llist4">2 exhibitor passes</li>
                             </ul>
                         </div>
                         <div class="card-footer bg-transparent text-center">
                             <!--<button class="btn btn-outline-primary">Inquire Now</button>-->
-                            <a href="#contact" class="btn btn-primary">Inquire Now</a>
+                            <a href="#contact" class="btn btn-primary" data-i18n="Booth.inquire1">Inquire Now</a>
                         </div>
                     </div>
                 </div>
@@ -215,16 +215,16 @@
                         </div>
                         <div class="card-body">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Premium booth construction</li>
-                                <li class="list-group-item">Enhanced furniture package</li>
-                                <li class="list-group-item">Company branding</li>
-                                <li class="list-group-item">4 exhibitor passes</li>
-                                <li class="list-group-item">1 VIP lounge access</li>
+                                <li class="list-group-item" data-i18n="Booth.mlist1">Premium booth construction</li>
+                                <li class="list-group-item" data-i18n="Booth.mlist2">Enhanced furniture package</li>
+                                <li class="list-group-item" data-i18n="Booth.mlist3">Company branding</li>
+                                <li class="list-group-item" data-i18n="Booth.mlist4">4 exhibitor passes</li>
+                                <li class="list-group-item" data-i18n="Booth.mlist5">1 VIP lounge access</li>
                             </ul>
                         </div>
                         <div class="card-footer bg-transparent text-center">
                             <!--<button class="btn btn-primary">Popular Choice</button>-->
-                            <a href="#contact" class="btn btn-primary">Popular Choice</a>
+                            <a href="#contact" class="btn btn-primary" data-i18n="Booth.popular">Popular Choice</a>
                         </div>
                     </div>
                 </div>
@@ -235,17 +235,17 @@
                         </div>
                         <div class="card-body">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Custom booth design</li>
-                                <li class="list-group-item">Premium furniture package</li>
-                                <li class="list-group-item">Full branding options</li>
-                                <li class="list-group-item">8 exhibitor passes</li>
-                                <li class="list-group-item">2 VIP lounge accesses</li>
-                                <li class="list-group-item">Dedicated meeting space</li>
+                                <li class="list-group-item" data-i18n="Booth.rlist1">Custom booth design</li>
+                                <li class="list-group-item" data-i18n="Booth.rlist2">Premium furniture package</li>
+                                <li class="list-group-item" data-i18n="Booth.rlist3">Full branding options</li>
+                                <li class="list-group-item" data-i18n="Booth.rlist4">8 exhibitor passes</li>
+                                <li class="list-group-item" data-i18n="Booth.rlist5">2 VIP lounge accesses</li>
+                                <li class="list-group-item" data-i18n="Booth.rlist6">Dedicated meeting space</li>
                             </ul>
                         </div>
                         <div class="card-footer bg-transparent text-center">
                             <!--<button class="btn btn-outline-primary">Inquire Now</button>-->
-                            <a href="#contact" class="btn btn-primary">Inquire Now</a>
+                            <a href="#contact" class="btn btn-primary" data-i18n="Booth.inquire2">Inquire Now</a>
                         </div>
                     </div>
                 </div>
@@ -255,38 +255,38 @@
                 <div class="col-lg-8 mx-auto">
                     <div class="card shadow-sm">
                         <div class="card-header bg-primary text-white">
-                            <h4 class="mb-0">Sponsorship Levels</h4>
+                            <h4 class="mb-0" data-i18n="Booth.sponsorshiptitle">Sponsorship Levels</h4>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th>Level</th>
-                                            <th>Benefits</th>
-                                            <th>Visibility</th>
+                                            <th data-i18n="Booth.level">Level</th>
+                                            <th data-i18n="Booth.benefits">Benefits</th>
+                                            <th data-i18n="Booth.visibility">Visibility</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Platinum</td>
-                                            <td>Keynote speaking, logo placement, full page in catalog</td>
-                                            <td>Highest</td>
+                                            <td data-i18n="Booth.lcolum1">Platinum</td>
+                                            <td data-i18n="Booth.mcolum1">Keynote speaking, logo placement, full page in catalog</td>
+                                            <td data-i18n="Booth.rcolum1">Highest</td>
                                         </tr>
                                         <tr>
-                                            <td>Gold</td>
-                                            <td>Session speaking, logo placement, half page in catalog</td>
-                                            <td>High</td>
+                                            <td data-i18n="Booth.lcolum2">Gold</td>
+                                            <td data-i18n="Booth.mcolum2">Session speaking, logo placement, half page in catalog</td>
+                                            <td data-i18n="Booth.rcolum2">High</td>
                                         </tr>
                                         <tr>
-                                            <td>Silver</td>
-                                            <td>Logo placement, quarter page in catalog</td>
-                                            <td>Medium</td>
+                                            <td data-i18n="Booth.lcolum3">Silver</td>
+                                            <td data-i18n="Booth.mcolum3">Logo placement, quarter page in catalog</td>
+                                            <td data-i18n="Booth.rcolum3">Medium</td>
                                         </tr>
                                         <tr>
-                                            <td>Standard</td>
-                                            <td>Logo in catalog</td>
-                                            <td>Basic</td>
+                                            <td data-i18n="Booth.lcolum4">Standard</td>
+                                            <td data-i18n="Booth.mcolum4">Logo in catalog</td>
+                                            <td data-i18n="Booth.rcolum4">Basic</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -297,9 +297,9 @@
             </div>
 
             <div class="text-center mt-5">
-                <p><strong>Reserved Zones:</strong> See the floor plan. Dedicated areas for Swedish exhibitors are pre-marked in yellow across Halls A, B, and C.</p>
+                <p data-i18n="Booth.text1"><strong>Reserved Zones:</strong> See the floor plan. Dedicated areas for Swedish exhibitors are pre-marked in yellow across Halls A, B, and C.</p>
                 <!--<a href="#" class="btn btn-primary mt-2">View Floor Plan (PDF)</a>-->
-                <a href="assets/icpm-floor.pdf" class="btn btn-primary" download="ICPM-2026-floor.pdf">
+                <a href="assets/icpm-floor.pdf" class="btn btn-primary" download="ICPM-2026-floor.pdf" data-i18n="Booth.view">
                     <i class="fas fa-download me-2"></i> View Floor Plan
                 </a>
             </div>
@@ -309,8 +309,8 @@
     <!-- Who Should Exhibit Section -->
     <section id="who" class="py-5">
         <div class="container">
-            <h2 class="section-title text-center mb-5">Who Should Exhibit?</h2>
-            <p class="text-center mb-5">ICPM 2026 is ideal for companies and organizations in:</p>
+            <h2 class="section-title text-center mb-5" data-i18n="Who.title">Who Should Exhibit?</h2>
+            <p class="text-center mb-5" data-i18n="Who.text">ICPM 2026 is ideal for companies and organizations in:</p>
             
             <div class="row g-4">
                 <div class="col-sm-6 col-md-4 col-lg-3">
@@ -318,7 +318,7 @@
                         <div class="icon-small bg-primary me-3">
                             <i class="fas fa-pills"></i>
                         </div>
-                        <span>Pharmaceuticals & biotech</span>
+                        <span data-i18n="Who.list1">Pharmaceuticals & biotech</span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
@@ -326,7 +326,7 @@
                         <div class="icon-small bg-primary me-3">
                             <i class="fas fa-heartbeat"></i>
                         </div>
-                        <span>Medtech & diagnostics</span>
+                        <span data-i18n="Who.list2">Medtech & diagnostics</span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
@@ -334,7 +334,7 @@
                         <div class="icon-small bg-primary me-3">
                             <i class="fas fa-laptop-medical"></i>
                         </div>
-                        <span>Digital health & AI</span>
+                        <span data-i18n="Who.list3">Digital health & AI</span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
@@ -342,7 +342,7 @@
                         <div class="icon-small bg-primary me-3">
                             <i class="fas fa-university"></i>
                         </div>
-                        <span>University research</span>
+                        <span data-i18n="Who.list4">University research</span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
@@ -350,7 +350,7 @@
                         <div class="icon-small bg-primary me-3">
                             <i class="fas fa-apple-alt"></i>
                         </div>
-                        <span>Nutrition & supplements</span>
+                        <span data-i18n="Who.list5">Nutrition & supplements</span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
@@ -358,7 +358,7 @@
                         <div class="icon-small bg-primary me-3">
                             <i class="fas fa-spa"></i>
                         </div>
-                        <span>Cosmetics medicine</span>
+                        <span data-i18n="Who.list6">Cosmetics medicine</span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
@@ -366,7 +366,7 @@
                         <div class="icon-small bg-primary me-3">
                             <i class="fas fa-hospital"></i>
                         </div>
-                        <span>Hospitals & clinics</span>
+                        <span data-i18n="Who.list7">Hospitals & clinics</span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
@@ -374,7 +374,7 @@
                         <div class="icon-small bg-primary me-3">
                             <i class="fas fa-hand-holding-usd"></i>
                         </div>
-                        <span>Investors & distributors</span>
+                        <span data-i18n="Who.list8">Investors & distributors</span>
                     </div>
                 </div>
             </div>
@@ -384,8 +384,8 @@
     <!-- Special Offers Section -->
     <section class="py-5 bg-primary text-white">
         <div class="container">
-            <h2 class="section-title text-center mb-5">Exclusive Offers Through Keeada</h2>
-            <p class="text-center mb-5">As an official Nordic partner, Keeada offers the following benefits:</p>
+            <h2 class="section-title text-center mb-5" data-i18n="Special.title">Exclusive Offers Through Keeada</h2>
+            <p class="text-center mb-5" data-i18n="Special.text">As an official Nordic partner, Keeada offers the following benefits:</p>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
                     <div class="d-flex">
@@ -393,8 +393,8 @@
                             <i class="fas fa-star fa-2x"></i>
                         </div>
                         <div>
-                            <h5>Early bird discounts</h5>
-                            <p>Save with early registration</p>
+                            <h5 data-i18n="Special.title1">Early bird discounts</h5>
+                            <p data-i18n="Special.text1">Save with early registration</p>
                         </div>
                     </div>
                 </div>
@@ -404,8 +404,8 @@
                             <i class="fas fa-percentage fa-2x"></i>
                         </div>
                         <div>
-                            <h5>Subsidized fees</h5>
-                            <p>Reduced exhibition costs</p>
+                            <h5 data-i18n="Special.title2">Subsidized fees</h5>
+                            <p data-i18n="Special.text2">Reduced exhibition costs</p>
                         </div>
                     </div>
                 </div>
@@ -415,8 +415,8 @@
                             <i class="fas fa-users fa-2x"></i>
                         </div>
                         <div>
-                            <h5>Shared booths</h5>
-                            <p>Options for smaller companies</p>
+                            <h5 data-i18n="Special.title3">Shared booths</h5>
+                            <p data-i18n="Special.text3">Options for smaller companies</p>
                         </div>
                     </div>
                 </div>
@@ -426,14 +426,14 @@
                             <i class="fas fa-chess fa-2x"></i>
                         </div>
                         <div>
-                            <h5>Strategy session</h5>
-                            <p>Personalized planning</p>
+                            <h5 data-i18n="Special.title4">Strategy session</h5>
+                            <p data-i18n="Special.text4">Personalized planning</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a href="#contact" class="btn btn-light btn-lg">Claim Your Benefits</a>
+                <a href="#contact" class="btn btn-light btn-lg" data-i18n="Special.Claim">Claim Your Benefits</a>
             </div>
         </div>
     </section>
@@ -441,7 +441,7 @@
     <!-- Testimonials Section -->
     <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="section-title text-center mb-5">What Previous Exhibitors Say</h2>
+            <h2 class="section-title text-center mb-5" data-i18n="Testimonials.title">What Previous Exhibitors Say</h2>
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -451,9 +451,9 @@
                                     <div class="quote-icon mb-3">
                                         <i class="fas fa-quote-left"></i>
                                     </div>
-                                    <p class="mb-4">"ICPM opened doors to new markets and networks we wouldn't have accessed otherwise. The quality of contacts was exceptional."</p>
+                                    <p class="mb-4" data-i18n="Testimonials.text1">"ICPM opened doors to new markets and networks we wouldn't have accessed otherwise. The quality of contacts was exceptional."</p>
                                     <div class="testimonial-author">
-                                        <strong>— Pharma Company, ICPM 2025</strong>
+                                        <strong data-i18n="Testimonials.company1">— Pharma Company, ICPM 2025</strong>
                                     </div>
                                 </div>
                             </div>
@@ -462,9 +462,9 @@
                                     <div class="quote-icon mb-3">
                                         <i class="fas fa-quote-left"></i>
                                     </div>
-                                    <p class="mb-4">"The B2B matchmaking program alone was worth the investment. We secured three distribution agreements during the event."</p>
+                                    <p class="mb-4" data-i18n="Testimonials.text2">"The B2B matchmaking program alone was worth the investment. We secured three distribution agreements during the event."</p>
                                     <div class="testimonial-author">
-                                        <strong>— MedTech Startup, ICPM 2025</strong>
+                                        <strong data-i18n="Testimonials.company2">— MedTech Startup, ICPM 2025</strong>
                                     </div>
                                 </div>
                             </div>
@@ -473,9 +473,9 @@
                                     <div class="quote-icon mb-3">
                                         <i class="fas fa-quote-left"></i>
                                     </div>
-                                    <p class="mb-4">"As our first exhibition in the Middle East, ICPM provided the perfect platform to introduce our products to the region."</p>
+                                    <p class="mb-4" data-i18n="Testimonials.text3">"As our first exhibition in the Middle East, ICPM provided the perfect platform to introduce our products to the region."</p>
                                     <div class="testimonial-author">
-                                        <strong>— Biotech Firm, ICPM 2025</strong>
+                                        <strong data-i18n="Testimonials.company3">— Biotech Firm, ICPM 2025</strong>
                                     </div>
                                 </div>
                             </div>
@@ -499,15 +499,15 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h2 class="mb-3">Ready to Join the Future of Healthcare?</h2>
-                    <p class="lead mb-0">Secure your spot today and showcase your innovation at one of the most dynamic healthcare events in the Middle East.</p>
+                    <h2 class="mb-3" data-i18n="Final.title">Ready to Join the Future of Healthcare?</h2>
+                    <p class="lead mb-0" data-i18n="Final.text">Secure your spot today and showcase your innovation at one of the most dynamic healthcare events in the Middle East.</p>
                 </div>
                 <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
                     <div class="d-flex flex-column flex-lg-row gap-3 justify-content-lg-end">
                        <!-- <a href="#contact" class="btn btn-primary">Apply Now</a>
                         <a href="#contact" class="btn btn-outline-light">Book a Call</a>-->
-                        <a href="#contact" class="btn btn-light btn-lg">Apply Now</a>
-                        <a href="#contact" class="btn btn-light btn-lg">Book a Call</a>
+                        <a href="#contact" class="btn btn-light btn-lg" data-i18n="Final.apply">Apply Now</a>
+                        <a href="#contact" class="btn btn-light btn-lg" data-i18n="Final.book">Book a Call</a>
                     </div>
                 </div>
             </div>
@@ -517,19 +517,19 @@
     <!-- Contact Section -->
     <section id="contact" class="py-5">
         <div class="container">
-            <h2 class="section-title text-center mb-5">Get in Touch</h2>
+            <h2 class="section-title text-center mb-5" data-i18n="Contact.title">Get in Touch</h2>
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="card shadow-sm h-100">
                         <div class="card-body p-4">
-                            <h4 class="mb-4">Contact Information</h4>
+                            <h4 class="mb-4" data-i18n="Contact.title1">Contact Information</h4>
                             <div class="d-flex mb-3">
                                 <div class="me-3 text-primary">
                                     <i class="fas fa-building fa-lg"></i>
                                 </div>
                                 <div>
                                     <h5>Keeada Scandinavia</h5>
-                                    <p class="mb-0">Official Nordic Partner for ICPM 2026</p>
+                                    <p class="mb-0" data-i18n="Contact.text">Official Nordic Partner for ICPM 2026</p>
                                 </div>
                             </div>
                             <div class="d-flex mb-3">
@@ -537,7 +537,7 @@
                                     <i class="fas fa-envelope fa-lg"></i>
                                 </div>
                                 <div>
-                                    <h5>Email</h5>
+                                    <h5 data-i18n="Contact.title3">Email</h5>
                                     <p class="mb-0"><a href="mailto:info@keeada.org">info@keeada.org</a></p>
                                 </div>
                             </div>
@@ -546,18 +546,18 @@
                                     <i class="fas fa-globe fa-lg"></i>
                                 </div>
                                 <div>
-                                    <h5>Website</h5>
-                                    <p class="mb-0"><a href="http://www.keeada.com/" target="_blank">www.keeada.com</a></p>
+                                    <h5 data-i18n="Contact.title4">Website</h5>
+                                    <p class="mb-0"><a href="http://www.keeada.com/" target="_blank">www.keeadahealth.com</a></p>
                                 </div>
                             </div>
                             <div class="mt-4">
-                                <h5>Download Resources</h5>
+                                <h5 data-i18n="Contact.title5">Download Resources</h5>
                                 <div class="d-flex flex-wrap gap-2 mt-2">
                                   
-                                    <a href="assets/icpm-brochure.pdf" class="btn btn-primary" download="ICPM-2026-Brochure.pdf">
-                                        <i class="fas fa-download me-2"></i> ICPM 2026 Brochure (PDF)
+                                    <a href="assets/icpm-brochure.pdf" class="btn btn-primary" download="ICPM-2026-Brochure.pdf" data-i18n="Contact.icpm">
+                                        <i class="fas fa-download me-2" ></i> ICPM 2026 Brochure (PDF)
                                     </a>
-                                    <a href="assets/icpm-floor.pdf" class="btn btn-primary" download="ICPM-2026-floor.pdf">
+                                    <a href="assets/icpm-floor.pdf" class="btn btn-primary" download="ICPM-2026-floor.pdf" data-i18n="Contact.floor">
                                         <i class="fas fa-download me-2"></i> Floor Plan (PDF)
                                     </a>
                                 </div>
@@ -568,35 +568,35 @@
                 <div class="col-lg-6">
                     <div class="card shadow-sm h-100">
                         <div class="card-body p-4">
-                            <h4 class="mb-4">Send Us a Message</h4>
+                            <h4 class="mb-4" data-i18n="Contact.Sendtitle">Send Us a Message</h4>
                             <form id="contactForm" action="https://formspree.io/f/mvgaeqvn" method="POST">
                                 <div class="mb-3">
-                                    <label for="name" class="form-label">Name</label>
+                                    <label for="name" class="form-label" data-i18n="Contact.Sendname">Name</label>
                                     <input type="text" class="form-control" id="name" name="name" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="company" class="form-label">Company</label>
+                                    <label for="company" class="form-label" data-i18n="Contact.Sendcompany">Company</label>
                                     <input type="text" class="form-control" id="company" name="company" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="email" class="form-label">Email</label>
+                                    <label for="email" class="form-label" data-i18n="Contact.Sendemail">Email</label>
                                     <input type="email" class="form-control" id="email" name="email" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="phone" class="form-label">Phone</label>
+                                    <label for="phone" class="form-label" data-i18n="Contact.Sendphone">Phone</label>
                                     <input type="tel" class="form-control" id="phone" name="phone">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="interest" class="form-label">I'm interested in</label>
+                                    <label for="interest" class="form-label" data-i18n="Contact.Sendtext">I'm interested in</label>
                                     <select class="form-select" id="interest" name="interest">
-                                        <option value="exhibiting">Exhibiting at ICPM 2026</option>
-                                        <option value="sponsorship">Sponsorship Opportunities</option>
-                                        <option value="meetings">B2B Meetings</option>
-                                        <option value="other">Other</option>
+                                        <option value="exhibiting" data-i18n="Contact.option1">Exhibiting at ICPM 2026</option>
+                                        <option value="sponsorship" data-i18n="Contact.option2">Sponsorship Opportunities</option>
+                                        <option value="meetings" data-i18n="Contact.option3">B2B Meetings</option>
+                                        <option value="other" data-i18n="Contact.option4">Other</option>
                                     </select>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="message" class="form-label">Message</label>
+                                    <label for="message" class="form-label" data-i18n="Contact.message">Message</label>
                                     <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                                 </div>
                             
@@ -606,7 +606,7 @@
                                 <!-- Optional redirect to a thank you page -->
                                 <!-- <input type="hidden" name="_redirect" value="https://yourwebsite.com/thank-you.html"> -->
                             
-                                <button type="submit" class="btn btn-primary">Send Message</button>
+                                <button type="submit" class="btn btn-primary" data-i18n="Contact.sendmessage">Send Message</button>
                             </form>
                         </div>
                     </div>
@@ -637,13 +637,14 @@
     </footer>
 
     <!-- Back to Top Button -->
-   <!-- <a href="#" class="btn btn-primary back-to-top" id="backToTop">
+    <a href="#" class="btn btn-primary back-to-top" id="backToTop">
         <i class="fas fa-arrow-up"></i>
-    </a>-->
+    </a>
 
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
-    <script src="js/script.js"></script>
+   <!-- <script src="js/script.js"></script>-->
+    <script src="js/language.js"></script>
 </body>
 </html>
