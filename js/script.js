@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     window.addEventListener('scroll', function() {
         if (window.pageYOffset > 300) {
-            backToTopButton.classList.add('active');
+            backToTopButton.classList.add('show');
         } else {
-            backToTopButton.classList.remove('active');
+            backToTopButton.classList.remove('show');
         }
     });
     
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Navbar scroll effect
-    const navbar = document.querySelector('.navbar');
+  /*  const navbar = document.querySelector('.navbar');
     
     window.addEventListener('scroll', function() {
         if (window.pageYOffset > 50) {
@@ -68,5 +68,5 @@ document.addEventListener('DOMContentLoaded', function() {
             interval: 5000,
             pause: 'hover'
         });
-    }
+    }*/
 });
