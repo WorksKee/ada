@@ -47,20 +47,41 @@
     <header class="hero-section">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
-                <div class="col-lg-8">
+                <div class="col-lg-8">               
                     <h1 data-i18n="hero.title">Take Your Healthcare Innovation to the Middle East</h1>
                     <h2 class="mb-4" data-i18n="hero.subtitle">Exhibit at ICPM 2026 in the UAE</h2>
                     <p class="lead" data-i18n="hero.text">Join one of the Middle East's largest healthcare and pharmaceutical exhibitions.<br>
                     January 20-22, 2026 — Sharjah Research Technology & Innovation Park, UAE.</p>
                     <div class="d-flex flex-wrap gap-3 mt-4">
-                        <a href="#apply" class="btn btn-primary btn-lg" data-i18n="hero.apply">Apply for Exhibitor Spot</a>
-                        <!--<a href="#brochure" class="btn btn-outline-light btn-lg">Download Brochure</a>-->
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#boothApplicationModal" data-i18n="hero.apply">Apply for Exhibitor Spot</button>
                         <a href="assets/icpm-brochure.pdf" class="btn btn-primary" download="ICPM-2026-Brochure.pdf" data-i18n="hero.download">
                             <i class="fas fa-download me-2"></i> Download Brochure
-                        </a>
-                    
-                        <!--<a href="#contact" class="btn btn-outline-light btn-lg">Schedule a Call</a>-->
+                        </a>  
                         <a href="#contact" class="btn btn-primary btn-lg" data-i18n="hero.call">Schedule a Call</a>
+                    </div>
+                    <div class="countdown-timer">
+                        <div class="timer-title" data-i18n="timer.title">TIME REMAINING</div>
+                        <div class="timer-display">
+                            <div class="time-block">
+                                <span class="time-value" id="days">224</span>
+                                <span class="time-label" data-i18n="timer.days">DAYS</span>
+                            </div>
+                            <div class="time-separator">:</div>
+                            <div class="time-block">
+                                <span class="time-value" id="hours">21</span>
+                                <span class="time-label" data-i18n="timer.hours">HOURS</span>
+                            </div>
+                            <div class="time-separator">:</div>
+                            <div class="time-block">
+                                <span class="time-value" id="minutes">27</span>
+                                <span class="time-label" data-i18n="timer.minutes">MINUTES</span>
+                            </div>
+                            <div class="time-separator">:</div>
+                            <div class="time-block">
+                                <span class="time-value" id="seconds">00</span>
+                                <span class="time-label" data-i18n="timer.seconds">SECONDS</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,10 +137,11 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body text-center">
                             <div class="icon-box bg-primary mb-3">
-                                <i class="fas fa-chess-knight"></i>
+                                <i class="fas fa-chalkboard-teacher"></i>
                             </div>
-                            <h5 data-i18n="Exhibitor.subtitle1">Custom-built exhibition booths</h5>
-                            <p data-i18n="Exhibitor.text1">Premium design tailored to your brand and products</p>
+                            <h5 data-i18n="Exhibitor.subtitle1">Dedicated Workshops / Seminars</h5>
+                            <p data-i18n="Exhibitor.text1">Welcome to an immersive journey of learning, collaboration, and
+                                innovation</p>
                         </div>
                     </div>
                 </div>
@@ -129,8 +151,9 @@
                             <div class="icon-box bg-primary mb-3">
                                 <i class="fas fa-handshake"></i>
                             </div>
-                            <h5 data-i18n="Exhibitor.subtitle2">B2B matchmaking</h5>
-                            <p data-i18n="Exhibitor.text2">Access to buyers, investors, and stakeholders</p>
+                            <h5 data-i18n="Exhibitor.subtitle2">B2B Meetings</h5>
+                            <p data-i18n="Exhibitor.text2">Decision Makers/Owners – Hospitals, Pharma Manufacturing
+                                Companies</p>
                         </div>
                     </div>
                 </div>
@@ -138,10 +161,11 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body text-center">
                             <div class="icon-box bg-primary mb-3">
-                                <i class="fas fa-bullhorn"></i>
+                                <i class="fas fa-warehouse"></i>
                             </div>
-                            <h5 data-i18n="Exhibitor.subtitle3">Media exposure</h5>
-                            <p data-i18n="Exhibitor.text3">International coverage for your brand</p>
+                            <h5 data-i18n="Exhibitor.subtitle3">Local & GCC Distribution Setup</h5>
+                            <p data-i18n="Exhibitor.text3">Embark on a journey of entrepreneurship and innovation with us
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -149,10 +173,11 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body text-center">
                             <div class="icon-box bg-primary mb-3">
-                                <i class="fas fa-users"></i>
+                                <i class="fas fa-trophy"></i>
                             </div>
-                            <h5 data-i18n="Exhibitor.subtitle4">VIP networking</h5>
-                            <p data-i18n="Exhibitor.text4">Exclusive opportunities to connect</p>
+                            <h5 data-i18n="Exhibitor.subtitle4">Inter Universities Competitions</h5>
+                            <p data-i18n="Exhibitor.text4">Get ready to showcase your talent, passion, and competitive
+                                spirit</p>
                         </div>
                     </div>
                 </div>
@@ -160,10 +185,11 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body text-center">
                             <div class="icon-box bg-primary mb-3">
-                                <i class="fas fa-chess"></i>
+                                <i class="fas fa-university"></i>
                             </div>
-                            <h5 data-i18n="Exhibitor.subtitle5">Strategic planning</h5>
-                            <p data-i18n="Exhibitor.text5">One-on-one session with Keeada</p>
+                            <h5 data-i18n="Exhibitor.subtitle5">Pharmacy & Medical Universities</h5>
+                            <p data-i18n="Exhibitor.text5">Gathering of esteemed pharmacy and medical universities from
+                                around the globe</p>
                         </div>
                     </div>
                 </div>
@@ -171,10 +197,11 @@
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body text-center">
                             <div class="icon-box bg-primary mb-3">
-                                <i class="fas fa-tags"></i>
+                                <i class="fas fa-file-contract"></i>
                             </div>
-                            <h5 data-i18n="Exhibitor.subtitle6">Subsidized options</h5>
-                            <p data-i18n="Exhibitor.text6">Special rates via Scandinavian channel</p>
+                            <h5 data-i18n="Exhibitor.subtitle6">Regulatory Affairs - UAE, GCC & MENA</h5>
+                            <p data-i18n="Exhibitor.text6">We provide strategic guidance and tailored solutions to help you
+                                navigate the regulatory maze effectively</p>
                         </div>
                     </div>
                 </div>
@@ -184,127 +211,171 @@
 
     <!-- Booth Options Section -->
     <section id="booths" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="section-title text-center mb-5" data-i18n="Booth.title">Booth Packages and Sponsorship Opportunities</h2>
-            <p class="text-center mb-5" data-i18n="Booth.text">Choose the size and visibility level that suits your company best. Pricing starts at 600 USD per m². Discounted rates may apply via Keeada.</p>
-            
-            <div class="row g-4 mb-5">
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-header bg-primary text-white text-center py-3">
-                            <h4>3 x 3 m (9 m²)</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item" data-i18n="Booth.llist1">Standard booth construction</li>
-                                <li class="list-group-item" data-i18n="Booth.llist2">Basic furniture package</li>
-                                <li class="list-group-item" data-i18n="Booth.llist3">Company name on fascia</li>
-                                <li class="list-group-item" data-i18n="Booth.llist4">2 exhibitor passes</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer bg-transparent text-center">
-                            <!--<button class="btn btn-outline-primary">Inquire Now</button>-->
-                            <a href="#contact" class="btn btn-primary" data-i18n="Booth.inquire1">Inquire Now</a>
-                        </div>
+    <div class="container">
+        <h2 class="section-title text-center mb-5" data-i18n="Booth.title">Booth Packages and Sponsorship Opportunities</h2>
+        <p class="text-center mb-5" data-i18n="Booth.text">
+            Choose the size and visibility level that suits your company best.
+            <span class="text-primary fw-bold">Pricing starts at 600 USD/m²</span>.
+            <i class="fas fa-info-circle" data-bs-toggle="tooltip"
+                title="Discounted rates available for Nordic exhibitors via Keeada."></i>
+        </p>
+
+        <!-- All Booth Sizes in One Row -->
+        <div class="row g-4 mb-5">
+            <!-- 3x3m Booth -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                <div class="card h-100 booth-card">
+                    <div class="card-header text-white text-center py-3 position-relative">
+                        <div class="booth-size">3×3</div>
+                        <h4>9 m² Booth</h4>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 border-primary">
-                        <div class="card-header bg-primary text-white text-center py-3">
-                            <h4>3 x 6 m (18 m²)</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item" data-i18n="Booth.mlist1">Premium booth construction</li>
-                                <li class="list-group-item" data-i18n="Booth.mlist2">Enhanced furniture package</li>
-                                <li class="list-group-item" data-i18n="Booth.mlist3">Company branding</li>
-                                <li class="list-group-item" data-i18n="Booth.mlist4">4 exhibitor passes</li>
-                                <li class="list-group-item" data-i18n="Booth.mlist5">1 VIP lounge access</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer bg-transparent text-center">
-                            <!--<button class="btn btn-primary">Popular Choice</button>-->
-                            <a href="#contact" class="btn btn-primary" data-i18n="Booth.popular">Popular Choice</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-header bg-primary text-white text-center py-3">
-                            <h4>6 x 6 m (36 m²)</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item" data-i18n="Booth.rlist1">Custom booth design</li>
-                                <li class="list-group-item" data-i18n="Booth.rlist2">Premium furniture package</li>
-                                <li class="list-group-item" data-i18n="Booth.rlist3">Full branding options</li>
-                                <li class="list-group-item" data-i18n="Booth.rlist4">8 exhibitor passes</li>
-                                <li class="list-group-item" data-i18n="Booth.rlist5">2 VIP lounge accesses</li>
-                                <li class="list-group-item" data-i18n="Booth.rlist6">Dedicated meeting space</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer bg-transparent text-center">
-                            <!--<button class="btn btn-outline-primary">Inquire Now</button>-->
-                            <a href="#contact" class="btn btn-primary" data-i18n="Booth.inquire2">Inquire Now</a>
-                        </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#boothApplicationModal">Book Now</button>
+                        <small class="d-block mt-2 text-muted"><strong>$5,500</strong></small>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="card shadow-sm">
-                        <div class="card-header bg-primary text-white">
-                            <h4 class="mb-0" data-i18n="Booth.sponsorshiptitle">Sponsorship Levels</h4>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th data-i18n="Booth.level">Level</th>
-                                            <th data-i18n="Booth.benefits">Benefits</th>
-                                            <th data-i18n="Booth.visibility">Visibility</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td data-i18n="Booth.lcolum1">Platinum</td>
-                                            <td data-i18n="Booth.mcolum1">Keynote speaking, logo placement, full page in catalog</td>
-                                            <td data-i18n="Booth.rcolum1">Highest</td>
-                                        </tr>
-                                        <tr>
-                                            <td data-i18n="Booth.lcolum2">Gold</td>
-                                            <td data-i18n="Booth.mcolum2">Session speaking, logo placement, half page in catalog</td>
-                                            <td data-i18n="Booth.rcolum2">High</td>
-                                        </tr>
-                                        <tr>
-                                            <td data-i18n="Booth.lcolum3">Silver</td>
-                                            <td data-i18n="Booth.mcolum3">Logo placement, quarter page in catalog</td>
-                                            <td data-i18n="Booth.rcolum3">Medium</td>
-                                        </tr>
-                                        <tr>
-                                            <td data-i18n="Booth.lcolum4">Standard</td>
-                                            <td data-i18n="Booth.mcolum4">Logo in catalog</td>
-                                            <td data-i18n="Booth.rcolum4">Basic</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+            <!-- 3x6m Booth (Popular) -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                <div class="card h-100 booth-card border-primary">
+                    <div class="card-header text-white text-center py-3 position-relative">
+                        
+                        <div class="booth-size">3×6</div>
+                        <h4>18 m² Booth</h4>
+                    </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#boothApplicationModal">Book Now</button>
+                        <small class="d-block mt-2 text-muted"><strong>$10,800</strong></small>
                     </div>
                 </div>
             </div>
 
-            <div class="text-center mt-5">
-                <p data-i18n="Booth.text1"><strong>Reserved Zones:</strong> See the floor plan. Dedicated areas for Swedish exhibitors are pre-marked in yellow across Halls A, B, and C.</p>
-                <!--<a href="#" class="btn btn-primary mt-2">View Floor Plan (PDF)</a>-->
-                <a href="assets/icpm-floor.pdf" class="btn btn-primary" download="ICPM-2026-floor.pdf" data-i18n="Booth.view">
-                    <i class="fas fa-download me-2"></i> View Floor Plan
-                </a>
+            <!-- 3x9m Booth -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                <div class="card h-100 booth-card">
+                    <div class="card-header text-white text-center py-3">
+                        <div class="booth-size">3×9</div>
+                        <h4>27 m² Booth</h4>
+                    </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#boothApplicationModal">Book Now</button>
+                        <small class="d-block mt-2 text-muted"><strong>$16,200</strong></small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6x6m Booth -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                <div class="card h-100 booth-card">
+                    <div class="card-header text-white text-center py-3">
+                        <div class="booth-size">6×6</div>
+                        <h4>36 m² Booth</h4>
+                    </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#boothApplicationModal">Book Now</button>
+                        <small class="d-block mt-2 text-muted"><strong>$21,600</strong></small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9x9m Booth -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                <div class="card h-100 booth-card">
+                    <div class="card-header text-white text-center py-3">
+                        <div class="booth-size">9×9</div>
+                        <h4>81 m² Booth</h4>
+                    </div>
+                    <div class="card-footer bg-transparent text-center">
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#boothApplicationModal">Book Now</button>
+                        <small class="d-block mt-2 text-muted"><strong>$48,600</strong></small>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+
+        <!-- Sponsorship Levels Row -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card shadow-sm sponsorship-card">
+                    <div class="card-header card-header-gradient text-white">
+                        <h4 class="mb-0"><i class="fas fa-medal me-2"></i> Sponsorship Levels</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-highlight">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th width="15%">Level</th>
+                                        <th>Benefits</th>
+                                        <th width="15%">Visibility</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span class="badge bg-dark sponsorship-badge">Platinum</span>
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-star text-primary me-2"></i> Maximum brand exposure and premium benefits.<br>
+                                        </td>
+                                        <td><span class="badge bg-dark">Highest</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="badge bg-warning text-dark sponsorship-badge">Gold</span>
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-bullhorn text-warning me-2"></i> High-level brand placement and promotional features.<br>
+                                        </td>
+                                        <td><span class="badge bg-warning text-dark">High</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="badge bg-secondary sponsorship-badge">Silver</span>
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-envelope-open-text me-2"></i> Brand visibility with select marketing advantages.<br>
+                                        </td>
+                                        <td><span class="badge bg-secondary">Medium</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="badge bg-light text-dark sponsorship-badge">Standard</span>
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-map-marker-alt me-2"></i> Various booth sizes and locations available.<br>
+                                        </td>
+                                        <td><span class="badge bg-light text-dark">Basic</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                   <!--  <div class="card-footer bg-light text-center">
+                        <button class="btn btn-outline-primary me-2"><i class="fas fa-file-pdf me-1"></i> Download
+                            Sponsorship Kit</button>
+                        <button class="btn btn-primary"><i class="fas fa-phone-alt me-1"></i> Contact Sales</button>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+
+        <!-- Floor Plan Row -->
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h5 class="mb-3">See Booth Locations</h5>
+                <div class="d-inline-block border p-3 rounded-3 bg-white shadow-sm">
+                    <div class="mt-2">
+                        <a href="assets/icpm-floor.pdf" class="btn btn-outline-primary btn-sm" download>
+                            <i class="fas fa-expand me-1"></i> View Full Plan
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Who Should Exhibit Section -->
     <section id="who" class="py-5">
@@ -504,9 +575,7 @@
                 </div>
                 <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
                     <div class="d-flex flex-column flex-lg-row gap-3 justify-content-lg-end">
-                       <!-- <a href="#contact" class="btn btn-primary">Apply Now</a>
-                        <a href="#contact" class="btn btn-outline-light">Book a Call</a>-->
-                        <a href="#contact" class="btn btn-light btn-lg" data-i18n="Final.apply">Apply Now</a>
+                        <button type="button" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#boothApplicationModal" data-i18n="Final.apply">Apply Now</button>
                         <a href="#contact" class="btn btn-light btn-lg" data-i18n="Final.book">Book a Call</a>
                     </div>
                 </div>
@@ -538,7 +607,7 @@
                                 </div>
                                 <div>
                                     <h5 data-i18n="Contact.title3">Email</h5>
-                                    <p class="mb-0"><a href="mailto:info@keeada.org">info@keeada.org</a></p>
+                                    <p class="mb-0"><a href="mailto:info@keeada.org">info@keeadahealth.org</a></p>
                                 </div>
                             </div>
                             <div class="d-flex mb-3">
@@ -615,6 +684,143 @@
         </div>
     </section>
 
+    <!-- Booth Application Form -->
+    <div class="modal fade" id="boothApplicationModal" tabindex="-1" aria-labelledby="boothApplicationModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="boothApplicationModalLabel">Apply for Exhibition Booth</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="boothApplicationForm" action="https://formspree.io/f/xyzjeoba" method="POST">
+                        <div class="row g-3">
+                            <!-- Personal Information -->
+                            <div class="col-md-6">
+                                <label for="firstName" class="form-label">First Name *</label>
+                                <input type="text" class="form-control" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName" class="form-label">Last Name *</label>
+                                <input type="text" class="form-control" id="lastName" name="lastName" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="nationality" class="form-label">Nationality *</label>
+                                <select class="form-select" id="nationality" name="nationality" required>
+                                    <option value="" selected disabled>Select Nationality</option>
+                                    <option value="Sweden">Sweden</option>
+                                    <option value="Denmark">Denmark</option>
+                                    <option value="Finland">Finland</option>
+                                    <option value="Norway">Norway</option>                                    
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="profession" class="form-label">Profession *</label>
+                                <select class="form-select" id="profession" name="profession" required>
+                                    <option value="" selected disabled>Select Profession</option>
+                                    <option value="Doctor">Doctor</option>
+                                    <option value="Lawyer">Lawyer</option>
+                                    <option value="Business Owner">Business Owner</option>
+                                    <option value="Executive">Executive</option>
+                                    <option value="Manager">Manager</option>
+                                    <option value="Researcher">Researcher</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="category" class="form-label">Category *</label>
+                                <select class="form-select" id="category" name="category" required>
+                                    <option value="" selected disabled>Select Category</option>
+                                    <option value="Exhibitor">Exhibitor</option>
+                                    <option value="Performer">Performer (Dancer/Singer/etc)</option>
+                                    <option value="Speaker">Speaker/Presenter</option>
+                                    <option value="Sponsor">Sponsor</option>
+                                    <option value="Visitor">Visitor</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="booth" class="form-label">Booth *</label>
+                                <select class="form-select" id="booth" name="booth" required>
+                                    <option value="" selected disabled>Select Booth</option>
+                                    <option value="3x3 m (9 m²)">3x3 m (9 m²) - $5,500</option>
+                                    <option value="3x6 m (18 m²)">3x6 m (18 m²) - $10,800</option>
+                                    <option value="3x9 m (27 m²)">3x9 m (27 m²) - $16,200</option>
+                                    <option value="6x6 m (36 m²)">6x6 m (36 m²) - $21,600</option>
+                                    <option value="9x9 m (81 m²)">9x9 m (81 m²) - $48,600</option>
+                                </select>
+                            </div>
+                            
+                            <!-- Organization Information -->
+                            <div class="col-12">
+                                <h5 class="mt-4 mb-3">Organization Information</h5>
+                                <div class="mb-3">
+                                    <label for="organization" class="form-label">Organization Name *</label>
+                                    <input type="text" class="form-control" id="organization" name="organization" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Mobile/Phone/Contact No. *</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="additionalInfo" class="form-label">Additional Information (Optional)</label>
+                                    <textarea class="form-control" id="additionalInfo" name="additionalInfo"
+                                        rows="3"></textarea>
+                                </div>
+                            </div>
+    
+                            <!-- Terms and Submit -->
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="termsAgreement" required>
+                                    <label class="form-check-label" for="termsAgreement">
+                                        I agree to the <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">terms
+                                            and conditions</a> *
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Hidden fields for Formspree -->
+                        <input type="hidden" name="_subject" value="New Booth Application for ICPM 2026">
+                        <input type="text" name="_gotcha" style="display:none">
+    
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit Application</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Terms Modal (optional) -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="termsModalLabel">Terms and Conditions</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Your terms and conditions content here -->
+                    <p>Booth application terms and conditions go here...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="bg-primary text-white py-4">
         <div class="container">
@@ -640,11 +846,13 @@
     <a href="#" class="back-to-top" id="backToTop">
         <i class="fas fa-arrow-up"></i>
     </a>
-
+    
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
     <script src="js/language.js"></script>
+    
+
 </body>
 </html>
