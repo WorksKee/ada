@@ -508,7 +508,7 @@
 
   /* Booth Size Visualization */
   .booth-size {
-     width: 60px;
+    width: 60px;
     height: 60px;
     margin: 0 auto 15px;
     display: flex;
@@ -518,17 +518,66 @@
     border-radius: 5px;
   }
 
-  /* Gradient Headers */
-  .card-header {
-    background: linear-gradient(135deg, #2c3e50, #3498db) !important;
-  }
   
+  /* Gradient Headers */
+  /*.card-header {
+    background: linear-gradient(135deg, #2c3e50, #3498db) !important;
+  }*/
+  .card-header {
+    background: #15564e !important;
+  }
 
-  /* Sponsorship Table Highlights */
-  .table-highlight tr:hover td {
-    background-color: #f8f9fa !important;
-  }
-  .sponsorship-badge {
-    font-size: 0.8em;
-    padding: 3px 8px;
-  }
+  
+  .card-header {
+    overflow: visible;
+    position: relative;
+}
+
+.badge {
+    max-width: 100%;
+    white-space: nowrap;
+}
+.booth-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+  /* Booth Tier Badges */
+    .bg-booth-standard {
+        background: #6c757d;
+        color: white;
+        font-weight: 600;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+    }
+    .bg-booth-silver {
+        background: linear-gradient(135deg, #c0c0c0 0%, #999999 100%);
+        color: #333;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .bg-booth-gold {
+        background: linear-gradient(135deg, #ffd700 0%, #daa520 100%);
+        color: #333;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .bg-booth-platinum {
+        background: linear-gradient(135deg, #e5e4e2 0%, #b6b6b6 100%);
+        color: #333;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .bg-booth-diamond {
+        background: linear-gradient(135deg, #b9f2ff 0%, #00b4d8 100%);
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+  
+ 
