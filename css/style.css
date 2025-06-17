@@ -633,6 +633,12 @@
     color: #15564e; /* Your primary color */
     padding: 0.5rem; /* If you want space around */
 }
+
+.meedia-icon{
+    font-size: 1.5rem; /* Adjust as needed */
+    color: #15564e; /* Your primary color */
+    padding: 0.5rem;
+}
  
 .icon-small {
     width: 40px;
@@ -648,3 +654,21 @@
     font-size: 1rem; /* Standard icon size */
     line-height: 1; /* Fixes vertical alignment */
   }
+
+  .scrolling-offer {
+        display: inline-block;
+        white-space: nowrap;
+        animation: scrollText 15s linear infinite;
+    }
+    
+    @keyframes scrollText {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+    
+    /* Pause animation on hover */
+    .scrolling-offer:hover {
+        animation-play-state: paused;
+    }
+
+   
