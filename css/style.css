@@ -579,5 +579,72 @@
         font-weight: 600;
         text-transform: uppercase;
     }
+
+    /* Objectives Section Styles */
+.objective-list .list-group-item {
+    border-left: none;
+    border-right: none;
+    padding: 1.25rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.objective-list .list-group-item:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+    transform: translateX(5px);
+}
+
+.objective-list i {
+    width: 24px;
+    text-align: center;
+}
   
+/* Future Plan Section Styles */
+#future-plan {
+    background-color: #f8f9fa;
+}
+
+
+
+#future-plan .card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#future-plan .card-body {
+    background-color: white;
+}
+
+#future-plan .feature-box {
+    transition: all 0.3s ease;
+}
+
+#future-plan .feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.giant-icon {
+    font-size: 3rem; /* Adjust as needed */
+    color: #15564e; /* Your primary color */
+    padding: 0.5rem; /* If you want space around */
+}
+
+.normal-icon {
+    font-size: 2rem; /* Adjust as needed */
+    color: #15564e; /* Your primary color */
+    padding: 0.5rem; /* If you want space around */
+}
  
+.icon-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes it perfectly round */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0; /* Prevents shrinking */
+  }
+  
+  .icon-small i {
+    font-size: 1rem; /* Standard icon size */
+    line-height: 1; /* Fixes vertical alignment */
+  }
