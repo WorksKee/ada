@@ -658,7 +658,7 @@
   .scrolling-offer {
         display: inline-block;
         white-space: nowrap;
-        animation: scrollText 15s linear infinite;
+        animation: scrollText 10s linear infinite;
     }
     
     @keyframes scrollText {
@@ -666,9 +666,18 @@
         100% { transform: translateX(-100%); }
     }
     
-    /* Pause animation on hover */
+   
     .scrolling-offer:hover {
         animation-play-state: paused;
     }
+
+    .fw-bold{
+        font-size: 1.2rem;
+    }
+    .bg-danger{
+        font-size: 1.3rem;
+    }
+
+     
 
    
