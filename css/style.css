@@ -678,6 +678,118 @@
         font-size: 1.3rem;
     }
 
+
+    /* Banner for august once kick of finish remove this part*/
+
+    /* Banner Container */
+        .icpm-banner {
+            font-family: 'Arial', sans-serif;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            position: relative;
+            background: #15564e;;
+            color: white;
+        }
+
+        /* Banner Content */
+        .banner-content {
+            display: flex;
+            flex-direction: column;
+            padding: 25px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Logo Header */
+        .logo-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .logo-header img {
+            height: 40px;
+        }
+
+        /* Tagline */
+        .tagline {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #FFD700;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Main Headline */
+        .headline {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        /* Key Points */
+        .key-points {
+            margin-bottom: 20px;
+        }
+
+        .key-point {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .key-point svg {
+            margin-right: 10px;
+            min-width: 20px;
+        }
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            background-color: #E30613;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+
+        .cta-button:hover {
+            background-color: #C00511;
+            transform: translateY(-2px);
+        }
+
+        /* Footer Note */
+        .footer-note {
+            font-size: 12px;
+            margin-top: 15px;
+            text-align: center;
+            opacity: 0.8;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 600px) {
+            .banner-content {
+                padding: 15px;
+            }
+            .headline {
+                font-size: 20px;
+            }
+            .tagline {
+                font-size: 16px;
+            }
+        }
      
 
    
