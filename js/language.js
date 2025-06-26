@@ -11,6 +11,12 @@ const translations = {
     "nav.contact": "Contact",
 
     // Hero Section
+
+    
+
+
+
+
     "hero.offer": "Exclusive Offer",
     "hero.companies": "Scandinavian companies receive a 5% discount through Keeada!",
     "hero.contact": "Contact us",
@@ -826,7 +832,7 @@ const translations = {
     "nav.why": "Miksi UAE?",
     "nav.benefits": "Kuka voi osallistua?",
     "nav.objective": "Tavoitteet",
-    "nav.future": "Tulevaisuuden suunnitelma",
+    "nav.future": "Tulevaisuus",
     "nav.booths": "Standivaihtoehdot",
     "nav.contact": "Yhteystiedot",
 
@@ -1023,10 +1029,10 @@ const translations = {
     
   },
   is: { 
-    // Navigation
+     // Navigation
     "nav.about": "Um ICPM",
     "nav.why": "Af hverju UAE?",
-    "nav.benefits": "Hverjir geta tekið þátt?",
+    "nav.benefits": "Þátttaka",
     "nav.objective": "Markmið",
     "nav.future": "Framtíðaráætlun",
     "nav.booths": "Sýningastandavalkostir",

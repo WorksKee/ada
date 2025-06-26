@@ -38,10 +38,10 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item language-btn" href="#" data-lang="en">English</a></li>
                             <li><a class="dropdown-item language-btn" href="#" data-lang="sv">Svenska</a></li>
-                            <li><a class="dropdown-item language-btn" href="#" data-lang="no">Norsk</a></li>
-                            <li><a class="dropdown-item language-btn" href="#" data-lang="dk">Dansk</a></li>
+                            <!--<li><a class="dropdown-item language-btn" href="#" data-lang="no">Norsk</a></li>-->
+                            <!--<li><a class="dropdown-item language-btn" href="#" data-lang="dk">Dansk</a></li>-->
                             <li><a class="dropdown-item language-btn" href="#" data-lang="fi">Suomi</a></li>
-                            <li><a class="dropdown-item language-btn" href="#" data-lang="is">Íslenska</a></li>
+                            <!--<li><a class="dropdown-item language-btn" href="#" data-lang="is">Íslenska</a></li>-->
                         </ul>
                     </li>
                 </ul>
@@ -58,16 +58,20 @@
                 <div class="icpm-banner">
                     <div class="banner-content">
                         <!-- Logo Header -->
-                        <div class="logo-header">
-                            <img src="images/keeada-logo.png" alt="Your Company Logo">
+                        <div class="logo-header d-flex align-items-center gap-2">
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <img src="images/keeada-logo.png" alt="Keeada Logo" style="height: 40px;">
+                                <span style="font-size: 18px; font-weight: bold;">Keeada Health</span>
+                            </div>
+                            
                             <img src="https://placehold.co/150x40/FFFFFF/003056?text=ICPM+2026" alt="ICPM 2026 Logo">
                         </div>
                 
                         <!-- Tagline -->
-                        <div class="tagline">Nordic Innovation Meets Middle East Opportunity</div>
+                        <div class="tagline" data-i18n="banner.nordic">Nordic Innovation Meets Middle East Opportunity</div>
                 
                         <!-- Main Headline -->
-                        <div class="headline">Exclusive Scandinavian Partner for ICPM 2026</div>
+                        <div class="headline" data-i18n="banner.partner">Exclusive Scandinavian Partner for ICPM 2026</div>
                 
                         <!-- Key Points -->
                         <div class="key-points">
@@ -76,31 +80,37 @@
                                     <path
                                         d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z" />
                                 </svg>
-                                <span>All Nordic bookings through <strong>Keeada Health</strong></span>
+                                <span data-i18n="banner.nordic">All Nordic bookings through <strong>Keeada Health</strong></span>
                             </div>
                             <div class="key-point">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#FFD700">
                                     <path
                                         d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z" />
                                 </svg>
-                                <span><strong>22 August 2025 Kick-Off</strong> – Limited Early-Bird Benefits</span>
+                                <span data-i18n="banner.date"><strong>22 August 2025 Kick-Off</strong> – Limited Early-Bird Benefits</span>
                             </div>
+                            <div class="key-point">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#FFD700">
+        <path d="M12 8c-2.21 0-4 .79-4 1.75v2.5C8 13.21 9.79 14 12 14s4-.79 4-1.75v-2.5C16 8.79 14.21 8 12 8zm0 5c-1.1 0-2-.39-2-.75v-.5c0-.36.9-.75 2-.75s2 .39 2 .75v.5c0 .36-.9.75-2 .75zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" />
+    </svg>
+    <span data-i18n="banner.time"><strong>Time:</strong> 16:00–18:00</span>
+</div>
                             <div class="key-point">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#FFD700">
                                     <path
                                         d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                                 </svg>
-                                <span>20-22 Jan 2026 | Sharjah Research, Technology & Innovation Park, UAE</span>
+                                <span data-i18n="banner.location"> Keeada Works, Livli Kungens kurva,Modulvägen 6</span>
                             </div>
                         </div>
                 
                         <!-- CTA Button -->
                          <button type="button" class="cta-button" data-bs-toggle="modal"
-                        data-bs-target="#boothApplicationModal">Join the August Kick-Off</button>
+                        data-bs-target="#boothApplicationModal" data-i18n="banner.join">Join the August Kick-Off</button>
                         <!--<a href="#contact" class="cta-button">Join the August Kick-Off</a>-->
                 
                         <!-- Footer Note -->
-                        <div class="footer-note">Limited exhibition spaces available for Scandinavian companies</div>
+                        <div class="footer-note" data-i18n="banner.limited">Limited exhibition spaces available for Scandinavian companies</div>
                     </div>
                 </div>
 
@@ -192,7 +202,7 @@ in private sessions and B2B.</p>
         
             <div class="row">
                 <div class="col-lg-6 order-lg-2">
-                    <h2 class="section-title text-center mb-5" data-i18n="why.title">Why the UAE — and Why Now?</h2>
+                    <h2 class="section-title mb-4" data-i18n="why.title">Why the UAE — and Why Now?</h2>
                     <p data-i18n="why.text1">Every year ICPM ties up with different success story, and after the success in last 13 events in UAE, this year ICPM is collaborating with government authority under one platform.</p>
                     <p data-i18n="why.text2">Direction and Vision of UAE is to improve and provide the world class healthcare industry, The healthcare scope and gain the trust of healthcare authorities and healthcare providers.</p>
                     <p data-i18n="why.text3">UAE’s economy has seen an unprecedented growth over the past few years which are the result of policies that investor friendly like cuttingred tape and expanding of economic and commerce in UAE considering its importance and the support extended from UAE Rulers, ICPM decided to take the opportunity and organize 14ᵗʰ edition of ICPM at UAE.</p>
@@ -846,17 +856,20 @@ in private sessions and B2B.</p>
                                 </div>
                                 <div>
                                     <h5 data-i18n="Contact.title4">Website</h5>
-                                    <p class="mb-0"><a href="http://www.keeada.com/" target="_blank">www.keeadahealth.com</a></p>
+                                    <p class="mb-0"><a href="http://www.keeada.com/"
+                                            target="_blank">www.keeadahealth.com</a></p>
                                 </div>
                             </div>
                             <div class="mt-4">
                                 <h5 data-i18n="Contact.title5">Download Resources</h5>
                                 <div class="d-flex flex-wrap gap-2 mt-2">
-                                  
-                                    <a href="assets/icpm-brochure.pdf" class="btn btn-primary" download="ICPM-2026-Brochure.pdf" data-i18n="Contact.icpm">
-                                        <i class="fas fa-download me-2" ></i> ICPM 2026 Brochure (PDF)
+    
+                                    <a href="assets/icpm-brochure.pdf" class="btn btn-primary"
+                                        download="ICPM-2026-Brochure.pdf" data-i18n="Contact.icpm">
+                                        <i class="fas fa-download me-2"></i> ICPM 2026 Brochure (PDF)
                                     </a>
-                                    <a href="assets/icpm-floor.pdf" class="btn btn-primary" download="ICPM-2026-floor.pdf" data-i18n="Contact.floor">
+                                    <a href="assets/icpm-floor.pdf" class="btn btn-primary" download="ICPM-2026-floor.pdf"
+                                        data-i18n="Contact.floor">
                                         <i class="fas fa-download me-2"></i> Floor Plan (PDF)
                                     </a>
                                 </div>
@@ -864,52 +877,77 @@ in private sessions and B2B.</p>
                         </div>
                     </div>
                 </div>
+    
                 <div class="col-lg-6">
                     <div class="card shadow-sm h-100">
                         <div class="card-body p-4">
                             <h4 class="mb-4" data-i18n="Contact.Sendtitle">Send Us a Message</h4>
-                            <form id="contactForm" action="https://formspree.io/f/mvgaeqvn" method="POST">
+    
+                            <form id="contactForm" action="https://formsubmit.co/namir@keeada.org" method="POST">
+    
+                                <!-- Name -->
                                 <div class="mb-3">
                                     <label for="name" class="form-label" data-i18n="Contact.Sendname">Name</label>
                                     <input type="text" class="form-control" id="name" name="name" required>
                                 </div>
+    
+                                <!-- Company -->
                                 <div class="mb-3">
                                     <label for="company" class="form-label" data-i18n="Contact.Sendcompany">Company</label>
                                     <input type="text" class="form-control" id="company" name="company" required>
                                 </div>
+    
+                                <!-- Email -->
                                 <div class="mb-3">
                                     <label for="email" class="form-label" data-i18n="Contact.Sendemail">Email</label>
                                     <input type="email" class="form-control" id="email" name="email" required>
                                 </div>
+    
+                                <!-- Phone -->
                                 <div class="mb-3">
                                     <label for="phone" class="form-label" data-i18n="Contact.Sendphone">Phone</label>
                                     <input type="tel" class="form-control" id="phone" name="phone">
                                 </div>
+    
+                                <!-- Interest -->
                                 <div class="mb-3">
-                                    <label for="interest" class="form-label" data-i18n="Contact.Sendtext">I'm interested in</label>
+                                    <label for="interest" class="form-label" data-i18n="Contact.Sendtext">I'm interested
+                                        in</label>
                                     <select class="form-select" id="interest" name="interest">
-                                        <option value="exhibiting" data-i18n="Contact.option1">Exhibiting at ICPM 2026</option>
-                                        <option value="sponsorship" data-i18n="Contact.option2">Sponsorship Opportunities</option>
+                                        <option value="exhibiting" data-i18n="Contact.option1">Exhibiting at ICPM 2026
+                                        </option>
+                                        <option value="sponsorship" data-i18n="Contact.option2">Sponsorship Opportunities
+                                        </option>
                                         <option value="meetings" data-i18n="Contact.option3">B2B Meetings</option>
                                         <option value="other" data-i18n="Contact.option4">Other</option>
                                     </select>
                                 </div>
+    
+                                <!-- Message -->
                                 <div class="mb-3">
                                     <label for="message" class="form-label" data-i18n="Contact.message">Message</label>
                                     <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                                 </div>
-                            
-                                <!-- Honeypot for spam protection -->
-                                <input type="text" name="_gotcha" style="display:none">
-                            
-                                <!-- Optional redirect to a thank you page -->
-                                <!-- <input type="hidden" name="_redirect" value="https://yourwebsite.com/thank-you.html"> -->
-                            
-                                <button type="submit" class="btn btn-primary" data-i18n="Contact.sendmessage">Send Message</button>
+    
+                                <!-- Honeypot (anti-spam) -->
+                                <input type="text" name="_honey" style="display:none">
+    
+                                <!-- Recommended Formsubmit settings -->
+                                <input type="hidden" name="_subject" value="New Contact Message from Website">
+                                <input type="hidden" name="_template" value="box">
+                                <input type="hidden" name="_captcha" value="false">
+                                <!-- Optional redirect -->
+                                <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
+    
+                                <!-- Submit Button -->
+                                <button type="submit" class="btn btn-primary" data-i18n="Contact.sendmessage">Send
+                                    Message</button>
                             </form>
                         </div>
                     </div>
                 </div>
+    
+    
             </div>
         </div>
     </section>
@@ -925,7 +963,7 @@ in private sessions and B2B.</p>
                         aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="boothApplicationForm" action="https://formspree.io/f/xyzjeoba" method="POST">
+                    <form id="boothApplicationForm" action="https://formsubmit.co/namir@keeada.org" method="POST">
                         <div class="row g-3">
                             <!-- Personal Information -->
                             <div class="col-md-6">
