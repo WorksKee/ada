@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/companylist.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -24,12 +25,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">About ICPM</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#why-uae"  data-i18n="nav.why">Why UAE?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">About ICPM</a></li>                    
                     <li class="nav-item"><a class="nav-link" href="#who"  data-i18n="nav.benefits">Who Can Participate?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#objectives"  data-i18n="nav.objective">Objectives</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#future-plan"  data-i18n="nav.future">Future Plan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#objectives"  data-i18n="nav.objective">Objectives</a></li>                    
                     <li class="nav-item"><a class="nav-link" href="#booths"  data-i18n="nav.booths">Booth Options</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Clist"  data-i18n="nav.companies">Exhibitors</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact"  data-i18n="nav.contact">Contact</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown">
@@ -37,11 +37,8 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item language-btn" href="#" data-lang="en">English</a></li>
-                            <li><a class="dropdown-item language-btn" href="#" data-lang="sv">Svenska</a></li>
-                            <!--<li><a class="dropdown-item language-btn" href="#" data-lang="no">Norsk</a></li>-->
-                            <!--<li><a class="dropdown-item language-btn" href="#" data-lang="dk">Dansk</a></li>-->
-                            <li><a class="dropdown-item language-btn" href="#" data-lang="fi">Suomi</a></li>
-                            <!--<li><a class="dropdown-item language-btn" href="#" data-lang="is">Íslenska</a></li>-->
+                            <li><a class="dropdown-item language-btn" href="#" data-lang="sv">Svenska</a></li>                          
+                            <li><a class="dropdown-item language-btn" href="#" data-lang="fi">Suomi</a></li>                            
                         </ul>
                     </li>
                 </ul>
@@ -119,10 +116,10 @@
                     <div class="scrolling-offer">
                         <span class="badge bg-danger me-2" data-i18n="hero.offer">Exclusive Offer</span>
                         <span class="fw-bold">
-                            <span data-i18n="hero.companies">Scandinavian companies receive a 5% discount through Keeada!
+                            <span data-i18n="hero.companies">Keeada Health offers a 5% discount exclusively for Scandinavian companies.
                             </span>
-                            <a href="#contact" class="alert-link" data-i18n="hero.contact" style="color: #007bff;">Contact us</a>
-                            <span data-i18n="hero.claim">to claim your discount.</span>
+                            <a href="#contact" class="alert-link" data-i18n="hero.contact" style="color: #007bff;">Reach out to us</a>
+                            <span data-i18n="hero.claim">to take advantage of this opportunity.</span>
                         </span>
                     </div>
                 </div>
@@ -178,9 +175,10 @@
     <!-- About ICPM Section -->
     <section id="about" class="py-5">
         <div class="container">
+            <h2 class="section-title mb-4" data-i18n="about.title">What is ICPM?</h2>
             <div class="row">
                 <div class="col-lg-6">
-                    <h2 class="section-title mb-4" data-i18n="about.title">What is ICPM?</h2>
+                    
                     <p data-i18n="about.text1">ICPM is a platform where it covers local and international market, you will have the exclusive chance to meet one on one with
 the key authorities and decision makers from all GCCand MENAcountries and overseas in healthcare sector.</p>
                     <p data-i18n="about.text2">ICPM is covering Medical, Medical Tourism, Insurance, pharmacy education, Pharma industry , regulatory affairs,
@@ -199,10 +197,11 @@ in private sessions and B2B.</p>
     <!-- Why UAE Section -->
     <section id="why-uae" class="py-5 bg-light">
         <div class="container">
+            <h2 class="section-title mb-4" data-i18n="why.title">Why the UAE — and Why Now?</h2>
         
             <div class="row">
                 <div class="col-lg-6 order-lg-2">
-                    <h2 class="section-title mb-4" data-i18n="why.title">Why the UAE — and Why Now?</h2>
+                    
                     <p data-i18n="why.text1">Every year ICPM ties up with different success story, and after the success in last 13 events in UAE, this year ICPM is collaborating with government authority under one platform.</p>
                     <p data-i18n="why.text2">Direction and Vision of UAE is to improve and provide the world class healthcare industry, The healthcare scope and gain the trust of healthcare authorities and healthcare providers.</p>
                     <p data-i18n="why.text3">UAE’s economy has seen an unprecedented growth over the past few years which are the result of policies that investor friendly like cuttingred tape and expanding of economic and commerce in UAE considering its importance and the support extended from UAE Rulers, ICPM decided to take the opportunity and organize 14ᵗʰ edition of ICPM at UAE.</p>
@@ -801,6 +800,34 @@ in private sessions and B2B.</p>
         </div>
     </section>
 
+
+    <!-- EXIBITORS -->
+    <section id="Clist" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-i18n="companylist.title">Exhibitors – ICPM 14 (2026)</h2>            
+        <div class="search-container animate__animated animate__fadeInUp">
+            <input type="text" id="search" placeholder="Search exhibitors by name..." autocomplete="off">
+        </div>
+        
+        <div class="counter animate__animated animate__fadeIn">
+            Showing <span id="visible-count">0</span> of <span id="total-count">0</span> exhibitors
+        </div>
+        
+        <div class="category-filter animate__animated animate__fadeIn">
+            <button class="category-btn active" data-category="all" data-i18n="companylist.all">All</button>
+            <button class="category-btn" data-category="pharma" data-i18n="companylist.pharma">Pharmaceutical</button>
+            <button class="category-btn" data-category="healthcare" data-i18n="companylist.health">Healthcare</button>
+            <button class="category-btn" data-category="academic" data-i18n="companylist.academic">Academic</button>
+            <button class="category-btn" data-category="government" data-i18n="companylist.government">Government</button>
+            <button class="category-btn" data-category="technology" data-i18n="companylist.tech">Technology</button>
+        </div>
+        
+        <div class="exhibitors-grid" id="exhibitors-container">
+            <!-- Exhibitors will be inserted here by JavaScript -->
+        </div>
+    </div>
+    </section>
+
     
 
     
@@ -838,7 +865,7 @@ in private sessions and B2B.</p>
                                 </div>
                                 <div>
                                     <h5>Keeada Scandinavia</h5>
-                                    <p class="mb-0" data-i18n="Contact.text"> Official Nordic Partner for ICPM 2026</p>
+                                    <p class="mb-0" data-i18n="Contact.text"> Strategic Nordic Partner – ICPM 2026</p>
                                 </div>
                             </div>
                             <div class="d-flex mb-3">
@@ -1059,7 +1086,7 @@ in private sessions and B2B.</p>
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center gap-2">
                     <img src="images/keeada-logo.png" alt="Keeada Logo" height="40">
-                    <p class="mb-0">Official Nordic Partner for ICPM 2026</p>
+                    <p class="mb-0">Strategic Nordic Partner – ICPM 2026</p>
                     
                 </div>
                 <div class="col-md-6 text-md-end mt-3 mt-md-0">
@@ -1084,6 +1111,7 @@ in private sessions and B2B.</p>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
     <script src="js/language.js"></script>
+    <script src="js/companylist.js"></script>
     
 
 </body>
