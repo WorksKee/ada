@@ -644,7 +644,209 @@ const translations = {
     "Contact.message": "Viesti",
     "Contact.sendmessage": "Lähetä viesti"
     
+  },
+  dk: { 
+    // Navigation
+    "nav.about": "Om ICPM",
+    "nav.benefits": "Berettigede deltagere",
+    "nav.objective": "Mål",    
+    "nav.booths": "Udstillingsmuligheder",
+    "nav.companies":"Udstillere",
+    "nav.contact": "Kontakt",
+
+    // Hero Section
+    "hero.offer": "Eksklusivt tilbud",
+    "hero.companies": "Skandinaviske virksomheder får 5% rabat gennem Keeada!",
+    "hero.contact": "Kontakt os",
+    "hero.claim": "for at få din rabat.",
+    "hero.title": "Tag din sundhedsinnovation til Mellemøsten",
+    "hero.subtitle": "Udstil ved den 14. ICPM-konference 2026 i UAE",
+    "hero.text": "Bliv en del af en af Mellemøstens største og mest indflydelsesrige udstillinger inden for sundhed og lægemidler.<br>20.–22. januar 2026 — Sharjah Research Technology & Innovation Park, UAE.",
+    "hero.apply": "Registrer dig som udstiller",
+    "hero.download": "Download brochure",
+    "hero.call": "Planlæg et opkald",
+    "timer.title": "TID TILBAGE",
+    "timer.days": "DAGE",
+    "timer.hours": "TIMER",
+    "timer.minutes": "MINUTTER",
+    "timer.seconds": "SEKUNDER",
+
+    // About Section
+    "about.title": "Hvad er ICPM?",
+    "about.text1": "ICPM er en platform, der dækker både lokale og internationale markeder. Du får eksklusiv mulighed for at møde nøglepersoner og beslutningstagere én-til-én fra hele GCC- og MENA-regionen samt globalt.",
+    "about.text2": "ICPM dækker områder som medicin, medicinsk turisme, forsikring, farmaceutisk uddannelse, farmaceutisk industri, regulatoriske forhold, bioækvivalens, farmakovigilans, prissætning, tandlæge- og diagnostiske laboratorier, GMP-afdelinger, genetik, veterinærmedicin, æstetik, dermatologi, kosmetik og rehabilitering.",
+    "about.text3": "Du møder også eksperter, konsulenter, udbydere og direktører i private sessioner og B2B-møder.",
+
+    // Why UAE Section
+    "why.title": "UAE Sharjah: ICPM som et strategisk knudepunkt i det aktuelle globale sundhedslandskab",
+    "why.text1": "ICPM skaber nye succeshistorier hvert år, og efter de første 13 vellykkede arrangementer samarbejder ICPM nu direkte med myndighederne i UAE",
+    "why.text2": "UAE har en klar vision om at opbygge et sundhedssystem i verdensklasse, udvide tilgængeligheden og opnå tillid fra både beslutningstagere og udbydere.",
+    "why.text3": "Landet har oplevet enestående økonomisk vækst de seneste år pga. investeringsvenlige politikker og mindre bureaukrati – ideelt for ICPM 2026.",
+
+    // Who Can Participate?
+    "Who.title": "Berettigede deltagere",
+    "Who.text": "ICPM 2026 er ideel for:",
+    "Who.text1": "Farmaceutiske og bioteknologiske virksomheder",
+    "Who.text2": "Hospitaler og sundhedsudbydere",
+    "Who.text3": "Medicotekniske virksomheder og distributører",
+    "Who.text4": "Producenter af engangsudstyr og forbrugsmaterialer",
+    "Who.text5": "Konsulenter og investorer",
+    "Who.text6": "Professorer og forskere",
+    "Who.text7": "Universiteter og akademikere",
+    "Who.text8": "Ambulance- og mobile klinikleverandører",
+    "Who.text9": "Forsikringsselskaber",
+    "Who.text10": "Genetiske klinikker",
+    "Who.text11": "Skønhed og kosmetikvirksomheder",
+    "Who.text12": "Myndigheder og medier",
+    "Who.text13": "Kommuner og statslige aktører",
+    "Who.text14": "Veterinærfabrikker og distributører",
+    "Who.text15": "Lægemiddeldistributionsfirmae",
+    "Who.text16": "Hoteller, spa og rehabiliteringscentre",
+    "Who.text17": "NGO’er",
+    "Who.text18": "Vitaminer, naturlægemidler og sportsernæring",
+    "Who.text19": "Producenter af sports- og ernæringsprodukter",
+    "Who.text20": "Logistik, import- og eksportvirksomheder",
+    "Who.text21": "Frizoner og lagerfaciliteter",
+
+    // Purpose & Objectives of ICPM
+    "Purpose.title": "ICPM: Formål og strategiske mål",
+    "Purpose.text1": "Fremme en sundere livsstil og forebygge livsstilssygdomme",
+    "Purpose.text2": "Forbinde internationale virksomheder med UAE’s og GCC’s myndigheder",
+    "Purpose.text3": "Øge bevidstheden om massesundhedsmedicin",
+    "Purpose.text4": "Skabe forbindelser mellem universiteter, producenter og distributører",
+    "Purpose.text5": "Fremme og støtte medicinsk turisme til UAE",
+    "Purpose.text6": "Tilbyde behandling i verdensklasse til lav pris",
+    "Purpose.text7": "Samarbejde mellem videnskabelige organisationer og sundhedsudbydere",
+    "Purpose.text8": "Dele ny teknologi og viden",
+    "Purpose.text9": "Styrke nye forretningsidéer og teknologiske løsninger",
+    "Purpose.text10": "Skabe samarbejde mellem offentlige og private hospitaler",
+    "Purpose.text11": "Udvide adgangen til decentral sundhedspleje via ny infrastruktur",
+    "Purpose.text12": "Udvikle lokale farmaceutiske industrier og hospitaler",
+
+    // Future Plan
+    "Future.title": "Fremtidsplan",
+    "Future.text1": "Keeada AB og sin partner i Danmark, skandiFAZ, vil hvert år via ICPM samarbejde med førende sundhedsaktører i UAE og internationalt. ICPM bliver forbindelsen mellem forskning og erhverv – alle events gennemføres i samarbejde med branchens mest anerkendte virksomheder.",
+    "Future.text2": "Initiativet vil løfte sundhedssektoren og give det bedst mulige resultat for patienterne.",
+    "Future.title1": "Globalt samarbejde",
+    "Future.text3": "PPartnerskaber med førende sundhedsorganisationer",
+    "Future.title2": "Strategiske alliancer mellem forskning og industri",
+    "Future.text4": "Bygge broer mellem forskere og branchefagfolk",
+    "Future.title3": "Bæredygtig vækst og langsigtet indflydelse",
+    "Future.text5": "Skabe varig indflydelse på sundhedsinnovation",
+
+    // Booth Options Section
+    "Booth.title": "ICPM 2026 – Stander pakker og sponsor muligheder",
+    "Booth.text": "Vælg den standerstørrelse og synlighedsgrad, der passer bedst til din virksomheds behov. Priserne starter ved 570 USD per m², med rabat tilgængelig gennem skandiFAZ.",
+    "Booth.regular": "Standardstander",
+    "Booth.standard": "Standard",
+    "Booth.booth": "9m² stander",
+    "Booth.now": "Book nu",
+
+    "Sponsorship.feature": "Funktion / Pakke",
+    "Sponsorship.gold": "GULD",
+    "Sponsorship.platinum": "PLATIN",
+    "Sponsorship.diamond": "DIAMANT",
+
+    "sponsorship.llist1": "Branding på stedet",
+    "sponsorship.llist2": "Adgang til strategisk netværkslounge",
+    "sponsorship.llist3": "Logo på hjemmeside,brochurer og sociale medier",
+    "sponsorship.llist4": "Besøg fra officielle myndigheder",
+    "sponsorship.llist5": "Firmabeskrivelse på hjemmeside",
+    "sponsorship.llist6": "Anerkendelse under eventet",
+    "sponsorship.llist7": "Udstillingsplads",
+    "sponsorship.llist8": "Koordineret møde med sundhedsmyndigheder",
+    "sponsorship.llist9": "Koordineret møde med forretningspartnere",
+    "sponsorship.llist10": "Præsentation i programmet",
+    "sponsorship.llist11": "Gratis konsultation af ICPM",
+    "sponsorship.llist12": "Gratis overnatning",
+    "sponsorship.llist13": "Gratis transport fra hotel til konference",
+    "sponsorship.llist14": "Mødebord ved konferencen",
+    "sponsorship.llist15": "Oplæg i den videnskabelige session",
+
+    "sponsorship.list1": "(+Skilte)",
+    "sponsorship.list2": "(VIP-besøg)",
+    "sponsorship.list3": "(Besøg fra højhedsrepræsentant)",
+    "sponsorship.list4": "150 ord",
+    "sponsorship.list5": "200 ord",
+    "sponsorship.list6": "250 ord",
+    "sponsorship.list7": "(Ekstra på førstedagen)",
+    "sponsorship.list8": "(Ved åbningsceremoni)",
+    "sponsorship.list9": "God placering",
+    "sponsorship.list10": "Semi Premium",
+    "sponsorship.list11": "Premium placering",
+    "sponsorship.list12": "(Sundhedssektoren)",
+    "sponsorship.list13": "(Sundhedsmyndigheder)",
+    "sponsorship.list14": "1 værelse",
+    "sponsorship.list15": "2 værelser",
+    "sponsorship.list16": "3 værelser",
+    "sponsorship.list17": "(VIP-bord)",
+    "sponsorship.list18": "(VIP-bord under event)",
+
+    "sponsorship.gbook": "Book nu",
+    "sponsorship.pbook": "Book nu",
+    "sponsorship.dbook": "Book nu",
+
+    "sponsorship.location": "Se standplaceringer",
+    "sponsorship.view": "Se plantegning",
+
+    // Final CTA Section
+    "Final.title": "Er du klar til at tage del i fremtidens sundhedsinnovation?",
+    "Final.text": "Gå ikke glip af muligheden for at udstille dine innovationer på et af Mellemøstens mest dynamiske sundhedsevents.",
+    "Final.apply": "Ansøg nu",
+    "Final.book": "Book et opkald",
+
+    //Booth Application Form
+    "Apply.stall":"Ansøg om udstillingsstand",
+    "Apply.firstName":"Fornavn *",
+    "Apply.lastName":"Efternavn *",
+    "Apply.nationality":"Nationalitet *",
+    "Apply.selectnationality":"Vælg nationalitet *",
+    "Apply.sweden":"Sverige",
+    "Apply.denmark":"Danmark",
+    "Apply.finland":"Finland",
+    "Apply.norway":"Norge",
+    "Apply.other":"Andet",
+    "Apply.emailaddress":"E-mailadresse *",
+    "Apply.fieldofcompany":"Virksomhedsområde *",
+    "Apply.rbooth":"Stand *",
+    "Apply.selectbooth":"Vælg stand",
+    "Apply.regularbooth":"Standardstand - $5,500",
+    "Apply.gold":"GULD - $10,260",
+    "Apply.platinum":"PLATIN - $15,390",
+    "Apply.diamond":"DIAMANT - $20,520",
+    "Apply.organizationinfo":"Organisationsinformation",
+    "Apply.organizationname":"Organisationsnavn *",
+    "Apply.organizationnumber":"Organisationsnummer *",
+    "Apply.mobile":"Mobil/Telefon/Kontaktnummer *",
+    "Apply.additionalinfo":"Yderligere information (Valgfrit)",
+    "Apply.close":"Luk",
+    "Apply.submitapplication":"Indsend ansøgning",
+
+    // Contact Section
+    "Contact.title": "Kom i kontakt",
+    "Contact.title1": "Kontaktinformation",
+    "Contact.text": "Officiel nordisk partner for ICPM 2026",
+    "Contact.title3": "E-mail",
+    "Contact.title4": "Hjemmeside",
+    "Contact.title5": "Download ressourcer",
+    "Contact.icpm": "ICPM 2026 brochure (PDF)",
+    "Contact.floor": "Plantegning (PDF)",
+
+    "Contact.Sendtitle": "Send os en besked",
+    "Contact.Sendname": "Navn",
+    "Contact.Sendcompany": "Virksomhed",
+    "Contact.Sendemail": "E-mail",
+    "Contact.Sendphone": "Telefon",
+    "Contact.Sendtext": "Jeg er interesseret i",
+    "Contact.option1": "At udstille ved ICPM 2026",
+    "Contact.option2": "Sponsormuligheder",
+    "Contact.option3": "B2B-møder",
+    "Contact.option4": "Andet",
+    "Contact.message": "Besked",
+    "Contact.sendmessage": "Send besked"
+    
   }
+
   
 };
 
@@ -656,6 +858,7 @@ function setLanguage(lang) {
     lang === 'en' ? 'English' :
     lang === 'sv' ? 'Svenska' :  
     lang === 'fi' ? 'Suomi' :
+    lang === 'dk' ? 'Dansk' :
     lang;
 
   // Update HTML lang attribute
