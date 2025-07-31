@@ -66,7 +66,7 @@
                         </div>
                 
                         <!-- Tagline -->
-                        <div class="tagline" data-i18n="banner.nordic">Nordic Innovation Meets Middle East Opportunity</div>
+                        <div class="tagline" data-i18n="banner.nordic1">Nordic Innovation Meets Middle East Opportunity</div>
                 
                         <!-- Main Headline -->
                         <div class="headline" data-i18n="banner.partner">Exclusive Scandinavian Partner for ICPM 2026</div>
@@ -810,9 +810,18 @@ in private sessions and B2B.</p>
             <input type="text" id="search" placeholder="Search exhibitors by name..." autocomplete="off">
         </div>
         
-        <div class="counter animate__animated animate__fadeIn">
+       <!-- <div class="counter animate__animated animate__fadeIn">
             Showing <span id="visible-count">0</span> of <span id="total-count">0</span> exhibitors
-        </div>
+        </div> -->
+
+      
+        <div class="counter animate__animated animate__fadeIn">
+    <span data-i18n="counter.showing">Showing</span> 
+    <span id="visible-count" class="number-red">0</span> 
+    <span data-i18n="counter.of">of</span> 
+    <span id="total-count" class="number-red">0</span> 
+    <span data-i18n="counter.exhibitors">exhibitors</span>
+</div>
         
         <div class="category-filter animate__animated animate__fadeIn">
             <button class="category-btn active" data-category="all" data-i18n="companylist.all">All</button>

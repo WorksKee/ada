@@ -792,4 +792,20 @@
         }
      
 
-   
+   .number-red {
+    color: #ff0000;  /* Standard red */
+    font-weight: bold; /* Optional: makes numbers stand out more */
+}
+
+/* Alternative using CSS variables for better theming */
+:root {
+    --number-color: #ff0000;
+}
+.number-red {
+    color: var(--number-color);
+}
+
+/* Keep translated text normal color */
+.counter span:not(.number-red) {
+    color: inherit; /* Inherits from parent */
+}

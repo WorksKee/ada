@@ -9,6 +9,11 @@ const translations = {
     "nav.companies":"Exhibitors",
     "nav.contact": "Contact",
 
+    //banner
+    "banner.nordic1":"Nordic Innovation Meets Middle East Opportunity",
+    "banner.partner":"Exclusive Scandinavian Partner for ICPM 2026",
+    "banner.nordic":"All Nordic bookings through <strong>Keeada Health",
+
     // Hero Section
 
     "hero.offer": "Exclusive Offer",
@@ -150,6 +155,9 @@ const translations = {
     "sponsorship.view": "Event floor plan",
 
     // EXIBITORS 
+    "counter.showing":"Showing",
+    "counter.of":"of",
+    "counter.exhibitors":"exhibitors",
     "companylist.title":"Exhibitors – ICPM 14 (2026)",
     "companylist.all":"All",
     "companylist.pharma":"Pharmaceutical",
@@ -225,6 +233,11 @@ const translations = {
     "nav.booths": "Utställningsalternativ",
     "nav.companies": "Utställare",
     "nav.contact": "Kontakt",
+
+    //banner
+    "banner.nordic1":"Nordic Innovation Meets Middle East Opportunity",
+    "banner.partner":"Exclusive Scandinavian Partner for ICPM 2026",
+    "banner.nordic":"All Nordic bookings through <strong>Keeada Health",
 
     // Hero Section
     "hero.offer": "Exklusvt erbjudande",
@@ -362,13 +375,17 @@ const translations = {
     "sponsorship.view": "Visa plattskiss",
 
     // EXIBITORS 
-    "companylist.title":"Exhibitors – ICPM 14 (2026)",
-    "companylist.all":"All",
-    "companylist.pharma":"Pharmaceutical",
-    "companylist.health":"Healthcare",
-    "companylist.academic":"Academic",
-    "companylist.government":"Government",
-    "companylist.tech":"Technology",
+    "counter.showing": "Visar",
+    "counter.of": "av",
+    "counter.exhibitors": "utställare",
+    
+    "companylist.title": "Utställare – ICPM 14 (2026)",
+    "companylist.all": "Alla",
+    "companylist.pharma": "Farmaceutisk",
+    "companylist.health": "Hälso- och sjukvård",
+    "companylist.academic": "Akademisk",
+    "companylist.government": "Statlig",
+    "companylist.tech": "Teknologi",
 
     // Final CTA Section
     "Final.title": "Redo att vara med och forma framtidens hälso- och sjukvård?",
@@ -441,6 +458,11 @@ const translations = {
     "nav.booths": "Standivaihtoehdot",
     "nav.companies": "Näyttelyosallistujat",
     "nav.contact": "Yhteystiedot",
+
+    //banner
+    "banner.nordic1":"Nordic Innovation Meets Middle East Opportunity",
+    "banner.partner":"Exclusive Scandinavian Partner for ICPM 2026",
+    "banner.nordic":"All Nordic bookings through <strong>Keeada Health",
 
     // Hero Section
     "hero.offer": "Eksklusiivinen tarjous",
@@ -580,13 +602,16 @@ const translations = {
 
     
     // EXIBITORS 
-    "companylist.title":"Exhibitors – ICPM 14 (2026)",
-    "companylist.all":"All",
-    "companylist.pharma":"Pharmaceutical",
-    "companylist.health":"Healthcare",
-    "companylist.academic":"Academic",
-    "companylist.government":"Government",
-    "companylist.tech":"Technology",
+    "counter.showing": "Näytetään",
+    "counter.of": "/",
+    "counter.exhibitors": "näyttelijää",
+    "companylist.title": "Näyttelijät – ICPM 14 (2026)",
+    "companylist.all": "Kaikki",
+    "companylist.pharma": "Lääketeollisuus",
+    "companylist.health": "Terveydenhuolto",
+    "companylist.academic": "Akateeminen",
+    "companylist.government": "Hallitus",
+    "companylist.tech": "Teknologia",
 
     // Final CTA Section
     "Final.title": "Valmiina liittymään terveydenhuollon tulevaisuuteen?",
@@ -654,11 +679,16 @@ const translations = {
     "nav.companies":"Udstillere",
     "nav.contact": "Kontakt",
 
+    //banner
+    "banner.nordic1":"Nordisk innovation møder muligheder i Mellemøsten",
+    "banner.partner":"Eksklusiv skandinavisk partner for ICPM 2026",
+    "banner.nordic":"Alle nordiske tilmeldinger gennem <strong>skandiFAZ",
+
     // Hero Section
     "hero.offer": "Eksklusivt tilbud",
-    "hero.companies": "Skandinaviske virksomheder får 5% rabat gennem Keeada!",
+    "hero.companies": "SskandiFAZ tilbyder 5 % rabat eksklusivt til danske virksomheder igennem vores samarbejdspartner, Keeada AB!",
     "hero.contact": "Kontakt os",
-    "hero.claim": "for at få din rabat.",
+    "hero.claim": "for at udnytte dette tilbud.",
     "hero.title": "Tag din sundhedsinnovation til Mellemøsten",
     "hero.subtitle": "Udstil ved den 14. ICPM-konference 2026 i UAE",
     "hero.text": "Bliv en del af en af Mellemøstens største og mest indflydelsesrige udstillinger inden for sundhed og lægemidler.<br>20.–22. januar 2026 — Sharjah Research Technology & Innovation Park, UAE.",
@@ -789,6 +819,18 @@ const translations = {
     "sponsorship.location": "Se standplaceringer",
     "sponsorship.view": "Se plantegning",
 
+    // EXIBITORS
+    "counter.showing": "Viser",
+    "counter.of": "af",
+    "counter.exhibitors": "udstillere",
+    "companylist.title": "Udstillere – ICPM 14 (2026)",
+    "companylist.all": "Alle",
+    "companylist.pharma": "Farmaceutisk",
+    "companylist.health": "Sundhedsvæsen",
+    "companylist.academic": "Akademisk",
+    "companylist.government": "Offentlig",
+    "companylist.tech": "Teknologi",
+
     // Final CTA Section
     "Final.title": "Er du klar til at tage del i fremtidens sundhedsinnovation?",
     "Final.text": "Gå ikke glip af muligheden for at udstille dine innovationer på et af Mellemøstens mest dynamiske sundhedsevents.",
@@ -825,18 +867,18 @@ const translations = {
     // Contact Section
     "Contact.title": "Kom i kontakt",
     "Contact.title1": "Kontaktinformation",
-    "Contact.text": "Officiel nordisk partner for ICPM 2026",
+    "Contact.text": "skandiFAZ – Keeada’s partner in Denmark Officiel nordisk partner for ICPM 2026",
     "Contact.title3": "E-mail",
     "Contact.title4": "Hjemmeside",
     "Contact.title5": "Download ressourcer",
     "Contact.icpm": "ICPM 2026 brochure (PDF)",
-    "Contact.floor": "Plantegning (PDF)",
+    "Contact.floor": "Stander-oversigt (PDF)",
 
-    "Contact.Sendtitle": "Send os en besked",
-    "Contact.Sendname": "Navn",
+    "Contact.Sendtitle": "Send besked",
+    "Contact.Sendname": "Name",
     "Contact.Sendcompany": "Virksomhed",
-    "Contact.Sendemail": "E-mail",
-    "Contact.Sendphone": "Telefon",
+    "Contact.Sendemail": "Email",
+    "Contact.Sendphone": "Telefonnummer",
     "Contact.Sendtext": "Jeg er interesseret i",
     "Contact.option1": "At udstille ved ICPM 2026",
     "Contact.option2": "Sponsormuligheder",
