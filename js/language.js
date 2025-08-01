@@ -946,10 +946,10 @@ function updateFormAction(lang) {
 
   // Map languages to different recipient emails
   const formRecipients = {
-    en: 'kothapellyshyamkumar@gmail.com',       // English
-    sv: 'chinnu0219@gmail.com',      // Swedish
-    fi: 'shyamkumarkothapelly@gmail.com',     // Finnish
-    dk: 'kothapallyshyam@gmail.com'      // Danish
+    en: 'namir@keeada.org',       // English
+    sv: 'namir@keeada.org',      // Swedish
+    fi: 'namir@keeada.org',     // Finnish
+    dk: 'ila@skandifaz.com'      // Danish
   };
 
   // Update form action
