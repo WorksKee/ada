@@ -884,25 +884,31 @@ in private sessions and B2B.</p>
                                 </div>
                                 <div>
                                     <h5 data-i18n="Contact.title3">Email</h5>
+    
+    
                                     <p class="mb-0">
-                                
-                                    <p class="mb-0">
-                                        <a href="mailto:namir@keeada.org">namir@keeada.org</a>
-                                        
-                                        
+                                        <!-- <a href="mailto:namir@keeada.org">namir@keeada.org</a>-->
+                                        <a href="mailto:" data-i18n="href:Contact.email" class="email-link">
+                                            <span data-i18n="Contact.email"></span>
+                                        </a>
+    
+    
                                     </p>
                                 </div>
                             </div>
-                             <!--<div class="d-flex mb-3">
+                            <div class="d-flex mb-3">
                                 <div class="me-3 text-primary">
-                                    <i class="fas fa-globe meedia-icon"></i>
+                                    <i class="fas fa-phone meedia-icon"></i>
                                 </div>
                                 <div>
-                                    <h5 data-i18n="Contact.title4">Website</h5>
-                                    <p class="mb-0"><a href="http://www.keeada.com/"
-                                            target="_blank">www.keeadahealth.com</a></p>
+                                    <h5 data-i18n="Contact.title10">Phone</h5>
+                                    <p class="mb-0">
+                                        <a href="tel:" data-i18n="[href]Contact.phone" class="phone-link">
+                                            <span data-i18n="Contact.phone"></span>
+                                        </a>
+                                    </p>
                                 </div>
-                            </div>-->
+                            </div>
                             <div class="mt-4">
                                 <h5 data-i18n="Contact.title5">Download Resources</h5>
                                 <div class="d-flex flex-wrap gap-2 mt-2">
@@ -926,7 +932,8 @@ in private sessions and B2B.</p>
                         <div class="card-body p-4">
                             <h4 class="mb-4" data-i18n="Contact.Sendtitle">Send Us a Message</h4>
     
-                            <form id="contactForm" action="https://formsubmit.co/namir@keeada.org" method="POST">
+                        <!--  <form id="contactForm" action="https://formsubmit.co/namir@keeada.org" method="POST">-->
+                                <form id="contactForm" data-i18n="[action]Contact.formAction" method="POST"></form>
     
                                 <!-- Name -->
                                 <div class="mb-3">
@@ -976,7 +983,8 @@ in private sessions and B2B.</p>
                                 <input type="text" name="_honey" style="display:none">
     
                                 <!-- Recommended Formsubmit settings -->
-                                <input type="hidden" name="_subject" value="New Contact Message from Website">
+                                <!--<input type="hidden" name="_subject" value="New Contact Message from Website">-->
+                                <input type="hidden" name="_subject" data-i18n="[value]Contact.emailSubject">
                                 <input type="hidden" name="_template" value="box">
                                 <input type="hidden" name="_captcha" value="false">
                                 <!-- Optional redirect -->

@@ -207,10 +207,18 @@ const translations = {
     "Contact.title1": "Contact Information",
     "Contact.text": "Strategic Nordic Partner – ICPM 2026",
     "Contact.title3": "Email",
+    "Contact.email":"namir@keeada.org",
+    "Contact.title10":"Phone",
+    "Contact.phone":"+46704983397",
     "Contact.title4": "Website",
     "Contact.title5": "Download Resources",
     "Contact.icpm": "ICPM 2026 Brochure (PDF)",
     "Contact.floor": "Floor Plan (PDF)",
+
+
+    "formAction":"https://formsubmit.co/namir@keeada.org",
+    "emailSubject":"New Message from Website",
+
 
     "Contact.Sendtitle": "Contact Us",
     "Contact.Sendname": "Name",
@@ -430,10 +438,16 @@ const translations = {
     "Contact.title1": "Kontaktinformation",
     "Contact.text": "Officiell nordisk partner för ICPM 2026",
     "Contact.title3": "E-post",
+    "Contact.email":"namir@keeada.org",
+    "Contact.title10":"Telefon",
+    "Contact.phone":"+46704983397",
     "Contact.title4": "Webbplats",
     "Contact.title5": "Ladda ner resurser",
     "Contact.icpm": "ICPM 2026 broschyr (PDF)",
     "Contact.floor": "Planlösning (PDF)",
+
+    "formAction":"https://formsubmit.co/kothapellyshyamkumar@gmail.com",
+    "emailSubject":"New Message from Website",
 
     "Contact.Sendtitle": "Skicka oss ett meddelande",
     "Contact.Sendname": "Namn",
@@ -651,10 +665,16 @@ const translations = {
     "Contact.title1": "Yhteystiedot",
     "Contact.text": "Virallinen pohjoismainen kumppani ICPM 2026:lle",
     "Contact.title3": "Sähköposti",
+    "Contact.email":"namir@keeada.org",
+    "Contact.title10":"Puhelin",
+    "Contact.phone":"+46704983397",
     "Contact.title4": "Verkkosivusto",
     "Contact.title5": "Lataa materiaaleja",
     "Contact.icpm": "ICPM 2026 -esite (PDF)",
     "Contact.floor": "Pohjapiirros (PDF)",
+
+    "formAction":"https://formsubmit.co/saari@keeada.org",
+    "emailSubject":"Uusi viesti verkkosivustolta",
 
     "Contact.Sendtitle": "Lähetä meille viesti",
     "Contact.Sendname": "Nimi",
@@ -869,10 +889,16 @@ const translations = {
     "Contact.title1": "Kontaktinformation",
     "Contact.text": "skandiFAZ – Keeada’s partner in Denmark Officiel nordisk partner for ICPM 2026",
     "Contact.title3": "E-mail",
+    "Contact.email":"ila@skandifaz.com",
+    "Contact.title10":"Telefon",
+    "Contact.phone":"+4526792385",
     "Contact.title4": "Hjemmeside",
     "Contact.title5": "Download ressourcer",
     "Contact.icpm": "ICPM 2026 brochure (PDF)",
     "Contact.floor": "Stander-oversigt (PDF)",
+
+    "formAction":"https://formsubmit.co/chinnu0219@gmail.com",
+    "emailSubject":"New Message from Website",
 
     "Contact.Sendtitle": "Send besked",
     "Contact.Sendname": "Name",
