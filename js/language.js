@@ -247,7 +247,7 @@ const translations = {
 
     // Hero Section
     "hero.offer": "Exklusvt erbjudande",
-    "hero.companies": "Skandinaviska företag får 5% rabatt genom Keeada!",
+    "hero.companies": "Keeada Health erbjuder 5 % rabatt exklusivt för skandinaviska företag.",
     "hero.contact": "Kontakta oss",
     "hero.claim": "för att ta del av din rabatt.",
     "hero.title": "Ta din hälsoinnovation till Mellanöstern",
@@ -701,7 +701,7 @@ const translations = {
 
     // Hero Section
     "hero.offer": "Eksklusivt tilbud",
-    "hero.companies": "SskandiFAZ tilbyder 5 % rabat eksklusivt til danske virksomheder igennem vores samarbejdspartner, Keeada AB!",
+    "hero.companies": "skandiFAZ tilbyder 5 % rabat eksklusivt til danske virksomheder igennem vores samarbejdspartner, Keeada AB!",
     "hero.contact": "Kontakt os",
     "hero.claim": "for at udnytte dette tilbud.",
     "hero.title": "Tag din sundhedsinnovation til Mellemøsten",

@@ -658,7 +658,7 @@
   .scrolling-offer {
         display: inline-block;
         white-space: nowrap;
-        animation: scrollText 10s linear infinite;
+        animation: scrollText 18s linear infinite;
     }
     
     @keyframes scrollText {
@@ -693,7 +693,10 @@
             position: relative;
             background: #15564e;;
             color: white;
+            
         }
+
+        
 
         /* Banner Content */
         .banner-content {
