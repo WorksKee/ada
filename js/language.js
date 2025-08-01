@@ -216,9 +216,7 @@ const translations = {
     "Contact.floor": "Floor Plan (PDF)",
 
 
-    "formAction":"https://formsubmit.co/namir@keeada.org",
-    "emailSubject":"New Message from Website",
-
+    
 
     "Contact.Sendtitle": "Contact Us",
     "Contact.Sendname": "Name",
@@ -446,9 +444,7 @@ const translations = {
     "Contact.icpm": "ICPM 2026 broschyr (PDF)",
     "Contact.floor": "Planlösning (PDF)",
 
-    "formAction":"https://formsubmit.co/kothapellyshyamkumar@gmail.com",
-    "emailSubject":"New Message from Website",
-
+    
     "Contact.Sendtitle": "Skicka oss ett meddelande",
     "Contact.Sendname": "Namn",
     "Contact.Sendcompany": "Företag",
@@ -673,8 +669,7 @@ const translations = {
     "Contact.icpm": "ICPM 2026 -esite (PDF)",
     "Contact.floor": "Pohjapiirros (PDF)",
 
-    "formAction":"https://formsubmit.co/saari@keeada.org",
-    "emailSubject":"Uusi viesti verkkosivustolta",
+    
 
     "Contact.Sendtitle": "Lähetä meille viesti",
     "Contact.Sendname": "Nimi",
@@ -897,8 +892,7 @@ const translations = {
     "Contact.icpm": "ICPM 2026 brochure (PDF)",
     "Contact.floor": "Stander-oversigt (PDF)",
 
-    "formAction":"https://formsubmit.co/chinnu0219@gmail.com",
-    "emailSubject":"New Message from Website",
+    
 
     "Contact.Sendtitle": "Send besked",
     "Contact.Sendname": "Name",
@@ -942,6 +936,24 @@ function setLanguage(lang) {
 
   // Save preference to localStorage
   localStorage.setItem('preferredLanguage', lang);
+  updateFormAction(lang);
+}
+
+// NEW: Add this function after setLanguage
+function updateFormAction(lang) {
+  const form = document.getElementById('contactForm');
+  if (!form) return;
+
+  // Map languages to different recipient emails
+  const formRecipients = {
+    en: 'shyam@keeada.org',       // English
+    sv: 'shyam@keeada.org',      // Swedish
+    fi: 'shyam@keeada.org',     // Finnish
+    dk: 'shyam@keeada.org'      // Danish
+  };
+
+  // Update form action
+  form.action = `https://formsubmit.co/${formRecipients[lang] || formRecipients.en}`;
 }
 
 // Initialize when page loads
