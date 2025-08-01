@@ -882,7 +882,7 @@ const translations = {
     // Contact Section
     "Contact.title": "Kom i kontakt",
     "Contact.title1": "Kontaktinformation",
-    "Contact.text": "skandiFAZ – Keeada’s partner in Denmark Officiel nordisk partner for ICPM 2026",
+    "Contact.text": "skandiFAZ – Keeada’s partner i Denmark - Officiel nordisk ICPM 2026 partner.",
     "Contact.title3": "E-mail",
     "Contact.email":"ila@skandifaz.com",
     "Contact.title10":"Telefon",
