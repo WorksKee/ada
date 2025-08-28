@@ -246,7 +246,7 @@ const translations = {
     "banner.nordic":"All Nordic bookings through <strong>Keeada Health",
 
     // Hero Section
-    "hero.offer": "Exklusvt erbjudande",
+    "hero.offer": "Exklusivt erbjudande",
     "hero.companies": "Keeada Health erbjuder 5 % rabatt exklusivt för skandinaviska företag.",
     "hero.contact": "Kontakta oss",
     "hero.claim": "för att ta del av din rabatt.",
