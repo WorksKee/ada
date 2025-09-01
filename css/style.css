@@ -533,6 +533,39 @@
     position: relative;
 }
 
+.features-title {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f1f1f1;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .feature-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #f5f5f5;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .feature-list i {
+            color: #3498db;
+            margin-right: 15px;
+            font-size: 18px;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
 .badge {
     max-width: 100%;
     white-space: nowrap;
